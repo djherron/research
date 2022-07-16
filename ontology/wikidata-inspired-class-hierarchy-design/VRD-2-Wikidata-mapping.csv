@@ -1,0 +1,101 @@
+VRD_class, WD_UID, Comments, WD_Parent_Class, sschains_in_ontology_status
+ 'person', Q215627, , ,done - 2 parents
+ 'sky', Q527,  ,  ,done
+ 'building', Q41176, ,  ,done
+ 'truck', Q43193, , ,done
+ 'bus', Q5638, , ,done
+ 'table', Q14748, , ,done
+ 'shirt', Q76768, , ,done
+ 'chair', Q15026, , ,done
+ 'car', Q1420, (motor car), motor vehicle (Q752870),done
+ 'train', Q870, , ,done (135 sschains)
+ 'glasses', Q37501, (eyeglasses), ,done
+ 'tree', Q10884, , ,done (2 chains)
+ 'boat', Q35872, , ,done
+ 'hat', Q80151, , ,done
+ 'trees', Q4421, (forest), ,done
+ 'grass', Q643352, , ,done
+ 'pants', Q39908, (trousers), clothing (Q11460),done
+ 'road', Q34442, , ,done  (45 chains)
+ 'motorcycle', Q34493, , ,done  (150 chains)
+ 'jacket', Q849964, , ,done (7 chains)
+ 'monitor', Q97077298, , ,done (124 chains)
+ 'wheel', Q446, , ,done (3 chains)
+ 'umbrella', Q41607, , ,done (32 chains)
+ 'plate', Q57216, , ,done (27 chains)
+ 'bike', Q11442, (bicycle), two-wheeler (Q233040), done  (168 chains)
+ 'clock', Q376, , ,done (52 chains)
+ 'bag', Q1323314, , ,done (36 chains)
+ 'shoe', Q22676, (aka shoes), footwear (Q161928),done  (16 chains)
+ 'laptop', Q3962, , ,done (169 chains)
+ 'desk', Q1064858, , ,done  (22 chains)
+ 'cabinet', Q2741056, , ,done
+ 'counter', Q1420266, , ,done
+ 'bench', Q204776, , ,done
+ 'shoes', Q22676, (shoe), footwear (Q161928),done
+ 'tower', Q12518, , ,done
+ 'bottle', Q80228, , ,done
+ 'helmet', Q173603, , ,done (87 chains)
+ 'stove', Q203789, , ,done (38 chains)
+ 'lamp', Q1138737, , ,done (25 chains)
+ 'coat', Q152574, , ,done  (7 chains)
+ 'bed', Q42177, , ,done
+ 'dog', Q144, ,  ,done   (12 chains)
+ 'mountain', Q8502, , ,done   (8 chains)
+ 'horse', Q726, , ,done   (6 chains)
+ 'plane', Q197, (airplane), powered aircraft (Q1949826),done (136 chains)
+ 'roof', Q83180, , ,done
+ 'skateboard', Q15783, ,  ,done  (70 chains)
+ 'traffic light', Q8004, , ,done
+ 'bush', Q42295, (shrub), perennial plant (Q157957),done  (4 chains)
+ 'phone', Q11035, (telephone), device (Q1183543),done  (56 chains)
+ 'airplane', Q197, (aka plane), powered aircraft (Q1949826), done
+ 'sofa', Q131514, (couch), furniture (Q14745),done
+ 'cup', Q2453629, (drinking vessel), container (Q987767),done
+ 'sink', Q140565, , ,done   (140 chains)
+ 'shelf', Q45242859, ,  ,done
+ 'box', Q188075, , ,done
+ 'van', Q193468, , ,done
+ 'hand', Q33767, , ,done
+ 'shorts', Q223269, , ,done  (7 chains)
+ 'post', Q2180428, (pole, aka post), architectural structure (Q811979),done
+ 'jeans', Q83363, ,  ,done
+ 'cat', Q146, (house cat), pet (Q39201),done
+ 'sunglasses', Q217541, , ,done   (116 chains)
+ 'bowl', Q153988, , ,done
+ 'computer', Q16338, (personal computer), ,done
+ 'pillow', Q99895, , ,done  (5 chains)
+ 'pizza', Q177, , ,done
+ 'basket', Q201097, , ,done
+ 'elephant', Q7378, ,  ,done  (1 chain)
+ 'kite', Q42861, , ,done   (65 chains)
+ 'sand', Q34679, , ,done     (46 chains)
+ 'keyboard', Q1921606, , ,done
+ 'plant', Q756, , ,done     (1 chain)
+ 'can', Q15706035, (tin container), container (Q987767),done
+ 'vase', Q191851, , ,done
+ 'refrigerator', Q37828, , ,done   (1 chain)
+ 'cart', Q234668, , ,done
+ 'skis', Q172226, (ski), sports equipment (Q768186),done
+ 'pot', Q60310748, , ,done
+ 'surfboard', Q457689, , done
+ 'paper', Q11472, , ,done   (153 chains)
+ 'mouse', Q7987, , ,done  (103 chains)
+ 'trash can', Q354294, , ,done
+ 'cone', Q694547, (traffic cone), equipment (Q16798631),done
+ 'camera', Q15328, , ,done
+ 'ball', Q18545, , ,done
+ 'bear', Q11788, (Ursidae, aka bear family), Carnivora,done  (1 chain)
+ 'giraffe', Q862089, (issue: need fake 'subclass of' 'mammal'), mammal (Q7377),done
+ 'tie', Q44416, (necktie), neckwear (Q6985603),done
+ 'luggage', Q865054, (baggage, aka luggage), container (Q987767),done
+ 'faucet', Q656656, (tap, aka faucet), plumbing (Q182612),done
+ 'hydrant', Q11191576, , device,done
+ 'snowboard', Q2000617, , sports equipment,done
+ 'oven', Q36539, , cooking appliance (or major appliance),done
+ 'engine', Q44167, , machine (Q11019),done
+ 'watch', Q178794, , clock (Q376),done
+ 'face', Q37017, , subdivision of head (Q66515796),done
+ 'street', Q79007, , road (Q34442),done
+ 'ramp', Q661343, (pics skateboard ramps, mostly; a mix), architectural element (Q391414),done
+ 'suitcase', Q200814, , baggage (Q865054), done
