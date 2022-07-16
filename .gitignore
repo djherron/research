@@ -1,0 +1,4 @@
+# files for Git to ignore
+
+# ignore all nuisance Mac files
+*.DS_Store
