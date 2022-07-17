@@ -1,0 +1,44 @@
+# VRD annotation customisation instructions file
+
+# Step 7 of the annotations customisation process: remove the (key/value)
+# entries from the VRD annotations dictionary for named images that have
+# been found to be problematic (for some reason) and not worth fixing.
+
+# The annotation customisation instruction to request removal of an image
+# name's entry from the annotations dictionary is 'rimxxx' (for 'remove image').
+# This instruction, 'rimxxx', MUST be present as the 3rd component of the
+# image name line signalled by 'imname'. The removal will not be effected unless
+# the 'rimxxx' instruction is explicitly specified along with the image name.
+
+# example:
+#
+# imname; 8374215031_063bfdfa0c_b.jpg; rimxxx
+#
+
+##############
+# start of annotation customisation instructions
+##############
+
+#
+# remove annotation dictionary entries for images found to require rotation
+#
+
+
+# TBD
+
+
+#
+# remove annotation dictionary entries for images found to have highly
+# problematic annotations that require extensive re-working but which
+# were deemed not worth the trouble of fixing, or images that have little
+# to work with and/or are simply unattractive and we don't want them
+#
+
+# few useful objects and very ugly image
+imname; 8263546381_40043c5d19_b.jpg; rimxxx
+
+
+
+##############
+# end of annotation customisation instructions
+##############

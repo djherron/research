@@ -1,0 +1,1679 @@
+# VR annotations customisation instructions file
+
+#
+# This file specifies visual relationship (VR) annotation customisation instructions
+# with respect to the images of the VRD dataset.  It applies to Step 2 of the
+# VR annotation customisation process.
+#
+
+# NOTE: This file specifies VR annotation customisation instructions with respect
+# to the TEST set images of the VRD dataset.
+
+
+
+
+##############
+# start of annotation customisation instructions
+##############
+
+
+### Start of images with index 000 to 100: 68 ###
+
+imname; 8646018805_d914413321_b.jpg
+cvrpxx; 8; ('pants', 'has', 'helmet'); below
+
+imname; 5870797431_00a5f8a60d_b.jpg
+cvrobb; 0; ('motorcycle', 'on', 'street'); [13, 683, 3, 1021]
+cvrobb; 6; ('car', 'on', 'street'); [13, 683, 3, 1021]
+cvrobb; 7; ('car', 'near', 'street'); [13, 683, 3, 1021]
+cvrpxx; 7; ('car', 'near', 'street'); park on
+cvrobb; 10; ('person', 'on', 'street'); [13, 683, 3, 1021]
+cvrpxx; 13; ('wheel', 'on', 'motorcycle'); attached to
+rvrxxx; 12; ('street', 'behind', 'street')
+
+imname; 3266107604_245328e89f_b.jpg
+cvrsoc; 1; ('table', 'under', 'monitor'); desk
+
+imname; 3887797687_ca4a017b6c_b.jpg
+cvrsbb; 1; ('cone', 'on', 'street'); [384, 504, 167, 227]
+cvrobb; 2; ('trees', 'on', 'building'); [32, 328, 931, 1022]
+cvrpxx; 2; ('trees', 'on', 'building'); next to
+avrxxx; cone; [384, 504, 167, 227]; near; trees; [1, 365, 1, 336]
+
+imname; 6260429135_d65d4e6726_b.jpg
+cvrobb; 2; ('bus', 'on', 'street'); [609, 1022, 2, 767]
+cvrobb; 3; ('tree', 'next to', 'street'); [609, 1022, 2, 767]
+cvrpxx; 3; ('tree', 'next to', 'street'); in 
+cvrobb; 4; ('tree', 'on', 'street'); [609, 1022, 2, 767]
+cvrobb; 6; ('building', 'next to', 'street'); [609, 1022, 2, 767]
+cvrsbb; 7; ('street', 'in front of', 'building'); [609, 1022, 2, 767]
+cvrobb; 8; ('person', 'on', 'street'); [609, 1022, 2, 767]
+rvrxxx; 1; ('street', 'next to', 'street')
+
+imname; 8870557543_51dec14bf9_b.jpg
+cvrpxx; 0; ('train', 'below', 'building'); beside
+
+imname; 9414210295_79a2a51573_b.jpg
+avrxxx; person; [28, 597, 100, 518]; has; helmet; [30, 183, 224, 413]
+avrxxx; person; [28, 597, 100, 518]; wear; shirt; [201, 577, 74, 449]
+avrxxx; person; [28, 597, 100, 518]; has; shirt; [201, 577, 74, 449]
+avrxxx; shirt; [201, 577, 74, 449]; on; person; [28, 597, 100, 518]
+avrxxx; helmet; [30, 183, 224, 413]; on; person; [28, 597, 100, 518]
+
+imname; 5359060618_bf626eda51_b.jpg
+cvrobb; 0; ('car', 'on', 'road'); [667, 1023, 1, 827]
+cvrooc; 0; ('car', 'on', 'road'); street 
+cvrsbb; 3; ('road', 'under', 'car'); [667, 1023, 1, 827] 
+cvrsoc; 3; ('road', 'under', 'car'); street
+cvrobb; 5; ('traffic light', 'on', 'street'); [667, 1023, 1, 827]
+cvrpxx; 5; ('traffic light', 'on', 'street'); above
+avrxxx; car; [528, 748, 165, 697]; drive on; street; [667, 1023, 1, 827]
+
+imname; 6315596287_a690deabd9_b.jpg
+cvrooc; 2; ('person', 'wear', 'pants'); jeans
+cvrpxx; 5; ('person', 'next to', 'person'); near 
+
+imname; 3163440231_f04575fc51_o.jpg
+cvrooc; 2; ('person', 'has', 'coat'); jacket
+cvrobb; 6; ('trees', 'below', 'sky'); [4, 646, 3, 1272]
+
+imname; 9738695501_9d9de89a54_b.jpg
+avrxxx; train; [87, 644, 1, 533]; in front of; building; [1, 184, 1, 311]
+avrxxx; train; [87, 644, 1, 533]; beside; train; [135, 645, 493, 977]
+avrxxx; train; [87, 644, 1, 533]; next to; train; [135, 645, 493, 977]
+avrxxx; train; [87, 644, 1, 533]; on the left of; train; [135, 645, 493, 977]
+
+imname; 10132084253_cfa22219a1_b.jpg
+avrxxx; building; [3, 434, 1, 696]; beside; train; [354, 405, 601, 676]
+
+imname; 4986938199_7be9a37d50_b.jpg
+cvrooc; 3; ('person', 'wear', 'glasses'); sunglasses
+
+imname; 5159892039_1007298824_b.jpg
+cvrobb; 2; ('motorcycle', 'on', 'street'); [109, 652, 1, 1022]
+cvrsbb; 3; ('wheel', 'on', 'street'); [267, 458, 120, 292]
+cvrobb; 3; ('wheel', 'on', 'street'); [109, 652, 1, 1022]
+
+imname; 3652129919_0efc9b55f6_b.jpg
+cvrsoc; 2; ('person', 'next to', 'monitor'); speaker
+cvrooc; 3; ('can', 'on', 'person'); speaker
+
+imname; 10104268563_965a646010_b.jpg
+cvrpxx; 3; ('wheel', 'next to', 'wheel'); near
+cvrpxx; 4; ('building', 'on the right of', 'truck'); behind
+rvrxxx; 2; ('wheel', 'below', 'truck')
+avrxxx; truck; [204, 541, 202, 798]; in front of; building; [3, 484, 152, 1022]
+
+imname; 4346438294_3e50a384ce_o.jpg
+cvrpxx; 7; ('person', 'stand next to', 'person'); on the right of
+
+imname; 4607898043_b7e3262887_b.jpg
+avrxxx; car; [803, 967, 103, 427]; behind; bus; [662, 945, 343, 682]
+avrxxx; bus; [662, 945, 343, 682]; in front of; car; [803, 967, 103, 427]
+avrxxx; car; [803, 967, 103, 427]; next to; bus; [662, 945, 343, 682]
+avrxxx; car; [803, 967, 103, 427]; on; street; [927, 1023, 84, 682]
+avrxxx; bus; [662, 945, 343, 682]; on; street; [927, 1023, 84, 682]
+avrxxx; post; [1, 1023, 191, 302]; near; car; [803, 967, 103, 427]
+avrxxx; post; [1, 1023, 191, 302]; on; street; [927, 1023, 84, 682]
+
+imname; 7355366602_5dd0675407_b.jpg
+cvrsoc; 8; ('glasses', 'on', 'table'); drinking glass
+
+imname; 8308021888_862a05c775_b.jpg
+avrxxx; building; [1, 950, 1, 610]; has; canopy; [735, 883, 113, 475]
+avrxxx; canopy; [735, 883, 113, 475]; over; person; [898, 963, 393, 431]
+avrxxx; person; [898, 963, 393, 431]; under; canopy; [735, 883, 113, 475]
+avrxxx; trash can; [950, 999, 1, 133]; next to; building; [1, 950, 1, 610]
+avrxxx; car; [985, 1023, 351, 626]; beside; building; [1, 950, 1, 610]
+avrxxx; person; [956, 1023, 619, 670]; next to; car; [985, 1023, 351, 626]
+
+imname; 5297711298_16cf54cc96_b.jpg
+cvrsbb; 9; ('laptop', 'next to', 'person'); [712, 987, 2, 532]
+
+imname; 6937748857_768c7dca10_b.jpg
+avrxxx; sofa; [319, 479, 177, 479]; has; pillow; [347, 398, 234, 300]
+avrxxx; table; [342, 408, 471, 513]; next to; sofa; [319, 479, 177, 479]
+avrxxx; lamp; [269, 348, 463, 504]; on; table; [342, 408, 471, 513]
+avrxxx; chair; [330, 454, 512, 665]; beside; table; [342, 408, 471, 513]
+avrxxx; chair; [330, 454, 512, 665]; near; sofa; [319, 479, 177, 479]
+
+imname; 6365235685_7fa14dbb6e_b.jpg
+rvrxxx; 6; ('car', 'park on', 'motorcycle')
+avrxxx; motorcycle; [715, 972, 455, 639]; in front of; car; [598, 661, 187, 364]
+
+imname; 5816665318_4f92c28721_b.jpg
+avrxxx; vase; [621, 679, 672, 743]; next to; pot; [623, 679, 744, 865]
+avrxxx; vase; [621, 679, 672, 743]; has; plant; [508, 637, 633, 766]
+avrxxx; plant; [508, 637, 633, 766]; in; vase; [621, 679, 672, 743]
+
+imname; 2876425753_911f5db9e0_b.jpg
+avrxxx; person; [1, 768, 3, 283]; wear; shirt; [73, 612, 1, 178]
+avrxxx; pot; [574, 765, 220, 512]; next to; person; [1, 768, 3, 283]
+avrxxx; person; [1, 768, 3, 283]; hold; plate; [228, 313, 140, 381]
+avrxxx; person; [1, 768, 3, 283]; has; plate; [228, 313, 140, 381]
+avrxxx; plate; [228, 313, 140, 381]; above; pot; [574, 765, 220, 512]
+
+imname; 4451473528_e2c3a6d1dd_b.jpg
+cvrpxx; 1; ('sky', 'on top of', 'mountain'); over
+cvrsbb; 11; ('helmet', 'on', 'skis'); [189, 256, 65, 148]
+rvrxxx; 10; ('skis', 'on', 'street')
+rvrxxx; 7; ('person', 'on', 'mountain')
+
+imname; 424982680_5a7f530748_b.jpg
+cvrsbb; 0; ('person', 'hold', 'bear'); [249, 682, 448, 766]
+cvrobb; 0; ('person', 'hold', 'bear'); [237, 682, 654, 958]
+cvrooc; 0; ('person', 'hold', 'bear'); teddy bear
+cvrsbb; 2; ('person', 'wear', 'shirt'); [249, 682, 448, 766]
+rvrxxx; 1; ('person', 'hold', 'bear')
+
+imname; 6514046205_9a44d63a8c_b.jpg
+cvrobb; 3; ('trash can', 'on', 'street'); [342, 679, 8, 1024]
+cvrsbb; 4; ('street', 'under', 'trash can'); [342, 679, 8, 1024]
+
+imname; 6161159178_8fa749a7b7_b.jpg
+rvrxxx; 16; ('person', 'pull', 'cart')
+rvrxxx; 7; ('truck', 'next to', 'box')
+avrxxx; cart; [472, 573, 687, 903]; behind; person; [372, 571, 636, 735]
+
+imname; 4679659935_2cf8905ec5_b.jpg
+avrxxx; counter; [512, 594, 648, 1023]; on top of; cabinet; [590, 911, 645, 1022]
+avrxxx; pot; [500, 564, 683, 750]; on; counter; [512, 594, 648, 1023]
+avrxxx; plant; [304, 515, 651, 781]; in; pot; [500, 564, 683, 750]
+avrxxx; waste bin; [783, 908, 573, 662]; next to; cabinet; [590, 911, 645, 1022]
+avrxxx; sink; [545, 564, 948, 1023]; in; counter; [512, 594, 648, 1023]
+avrxxx; faucet; [512, 546, 968, 1011]; over; sink; [545, 564, 948, 1023]
+avrxxx; pot; [500, 564, 683, 750]; has; plant; [304, 515, 651, 781]
+avrxxx; pot; [500, 564, 683, 750]; contain; plant; [304, 515, 651, 781]
+avrxxx; sink; [545, 564, 948, 1023]; has; faucet; [512, 546, 968, 1011]
+avrxxx; counter; [512, 594, 648, 1023]; has; sink; [545, 564, 948, 1023]
+avrxxx; waste bin; [783, 908, 573, 662]; below; counter; [512, 594, 648, 1023]
+
+imname; 9507114407_2b05691fed_b.jpg
+cvrpxx; 0; ('train', 'near', 'building'); next to
+cvrpxx; 1; ('building', 'behind', 'building'); beside
+
+imname; 8223245516_9562ded409_b.jpg
+cvrobb; 0; ('car', 'on', 'street'); [407, 684, 1, 1023]
+avrxxx; bus; [134, 587, 78, 1016]; on; street; [407, 684, 1, 1023]
+avrxxx; car; [370, 439, 1, 61]; behind; bus; [134, 587, 78, 1016]
+avrxxx; bus; [134, 587, 78, 1016]; in front of; building; [1, 154, 456, 892]
+avrxxx; bus; [134, 587, 78, 1016]; in front of; tree; [37, 380, 5, 495]
+avrxxx; street; [407, 684, 1, 1023]; under; bus; [134, 587, 78, 1016]
+
+imname; 5390999080_7d993b0bc3_b.jpg
+cvrooc; 0; ('pillow', 'on', 'sofa'); chair
+cvrooc; 3; ('pillow', 'on', 'sofa'); chair
+cvrsoc; 4; ('sofa', 'next to', 'sofa'); chair
+cvrpxx; 5; ('sofa', 'has', 'pillow'); near
+cvrsbb; 6; ('pillow', 'on', 'sofa'); [209, 287, 540, 621]
+cvrpxx; 6; ('pillow', 'on', 'sofa'); near
+cvrsbb; 7; ('sofa', 'has', 'pillow'); [195, 404, 2, 366]
+rvrxxx; 1; ('pillow', 'on', 'chair')
+avrxxx; pillow; [213, 316, 147, 238]; on; sofa; [195, 404, 2, 366]
+avrxxx; chair; [193, 387, 408, 661]; has; pillow; [203, 276, 463, 549]
+
+imname; 2850786338_b0ec05cc57_b.jpg
+rvrxxx; 4; ('building', 'has', 'roof')
+avrxxx; building; [218, 681, 107, 272]; beside; tower; [20, 679, 297, 953]
+avrxxx; tower; [20, 679, 297, 953]; below; sky; [2, 436, 3, 880]
+
+imname; 4331364162_3bf9564426_b.jpg
+rvrxxx; 7; ('bench', 'in front of', 'building')
+rvrxxx; 6; ('bench', 'on', 'street')
+rvrxxx; 5; ('person', 'wear', 'jacket')
+avrxxx; person; [379, 538, 435, 496]; inside; building; [1, 673, 33, 898]
+avrxxx; person; [379, 538, 435, 496]; in; building; [1, 673, 33, 898]
+avrxxx; building; [1, 673, 33, 898]; contain; person; [379, 538, 435, 496]
+avrxxx; building; [1, 673, 33, 898]; has; canopy; [70, 379, 87, 1020]
+avrxxx; canopy; [70, 379, 87, 1020]; attached to; building; [1, 673, 33, 898]
+avrxxx; canopy; [70, 379, 87, 1020]; over; bench; [551, 819, 273, 695]
+avrxxx; bench; [551, 819, 273, 695]; under; canopy; [70, 379, 87, 1020]
+
+imname; 5471365300_ac5b8723bf_b.jpg
+avrxxx; oven; [478, 838, 3, 500]; under; cooking pot; [437, 530, 360, 504]
+avrxxx; cooking pot; [437, 530, 360, 504]; on top of; oven; [478, 838, 3, 500]
+avrxxx; bowl; [348, 449, 326, 535]; on top of; cooking pot; [437, 530, 360, 504]
+avrxxx; paper; [841, 1022, 168, 524]; next to; oven; [478, 838, 3, 500]
+
+imname; 406487012_65aed1faa7_o.jpg
+cvrsoc; 0; ('train', 'next to', 'mountain'); train engine
+cvrooc; 2; ('mountain', 'beside', 'train'); train engine
+avrxxx; sky; [1, 432, 197, 1279]; over; mountain; [277, 523, 503, 912]
+avrxxx; train engine; [517, 570, 941, 999]; attached to; train; [487, 683, 940, 1279]
+avrxxx; train engine; [517, 570, 941, 999]; pull; train; [487, 683, 940, 1279]
+avrxxx; train; [487, 683, 940, 1279]; next to; mountain; [277, 523, 503, 912]
+avrxxx; train; [487, 683, 940, 1279]; under; sky; [1, 432, 197, 1279]
+avrxxx; sky; [1, 432, 197, 1279]; over; train; [487, 683, 940, 1279]
+
+imname; 5209477280_5bf65f67be_b.jpg
+cvrpxx; 2; ('airplane', 'fly', 'road'); over
+avrxxx; car; [521, 648, 104, 348]; below; airplane; [9, 197, 597, 944]
+avrxxx; car; [521, 648, 104, 348]; under; airplane; [9, 197, 597, 944]
+
+imname; 3987934391_ffec860739_b.jpg
+cvrobb; 11; ('car', 'on', 'street'); [319, 499, 1, 797]
+cvrobb; 13; ('car', 'on', 'street'); [319, 499, 1, 797]
+rvrxxx; 15; ('van', 'on', 'street')
+rvrxxx; 14; ('van', 'under', 'sky')
+rvrxxx; 8; ('traffic light', 'beside', 'traffic light')
+rvrxxx; 7; ('traffic light', 'above', 'street')
+rvrxxx; 4; ('car', 'on', 'street')
+
+imname; 97493266_7ff3cbd9b8_o.jpg
+rvrxxx; 8; ('cabinet', 'next to', 'person')
+rvrxxx; 7; ('cabinet', 'by', 'person')
+
+imname; 6131089361_5a48c553fd_b.jpg
+rvrxxx; 9; ('person', 'drive', 'car')
+rvrxxx; 8; ('person', 'in', 'car')
+avrxxx; car; [329, 533, 455, 805]; carry; surfboard; [317, 364, 514, 774]
+
+imname; 7479763654_c6fec5d93f_b.jpg
+cvrsoc; 6; ('tree', 'on', 'grass'); trees
+cvrooc; 7; ('grass', 'under', 'tree'); trees
+rvrxxx; 4; ('bus', 'next to', 'bus')
+
+imname; 9522682217_7ce18beda5_b.jpg
+rvrxxx; 4; ('van', 'behind', 'bus')
+
+imname; 7713268430_89c7211cb8_b.jpg
+cvrpxx; 1; ('tower', 'hold', 'clock'); contain
+cvrpxx; 4; ('clock', 'below', 'roof'); above
+cvrsbb; 5; ('tower', 'taller than', 'trees'); [18, 576, 232, 428]
+cvrobb; 5; ('tower', 'taller than', 'trees'); [416, 992, 1, 680]
+cvrpxx; 6; ('building', 'attached to', 'tower'); has
+rvrxxx; 8; ('roof', 'above', 'clock')
+rvrxxx; 7; ('tower', 'attached to', 'building')
+
+imname; 16444142_53c59dcd22_o.jpg
+cvrpxx; 1; ('monitor', 'hold', 'person'); below
+cvrooc; 1; ('monitor', 'below', 'person'); speaker
+cvrsoc; 2; ('person', 'on', 'monitor'); speaker
+cvrsoc; 3; ('person', 'above', 'monitor'); speaker
+cvrsoc; 4; ('person', 'on top of', 'monitor'); speaker
+avrxxx; cat; [698, 964, 107, 303]; face; monitor; [131, 504, 49, 479]
+
+imname; 8681487404_ba78ff01cd_b.jpg
+cvrsbb; 1; ('bench', 'behind', 'train'); [269, 337, 374, 465]
+cvrsbb; 2; ('tree', 'behind', 'grass'); [1, 228, 449, 797]
+cvrsoc; 2; ('tree', 'behind', 'grass'); trees
+cvrpxx; 2; ('trees', 'behind', 'grass'); in
+avrxxx; person; [214, 303, 275, 312]; ride; train; [173, 500, 4, 409]
+avrxxx; train; [173, 500, 4, 409]; beside; grass; [165, 367, 348, 1023]
+avrxxx; bench; [269, 337, 374, 465]; next to; grass; [165, 367, 348, 1023]
+
+imname; 205164508_5759e0151e_b.jpg
+cvrooc; 7; ('person', 'by', 'glasses'); drinking glass
+cvrooc; 8; ('person', 'by', 'glasses'); drinking glass
+cvrsoc; 9; ('glasses', 'next to', 'glasses'); drinking glass
+cvrooc; 9; ('drinking glass', 'next to', 'glasses'); drinking glass
+cvrsoc; 10; ('glasses', 'by', 'glasses'); drinking glass
+cvrooc; 10; ('drinking glass', 'by', 'glasses'); drinking glass
+cvrsoc; 11; ('glasses', 'in front of', 'person'); drinking glass
+
+imname; 54015226_01c69ff57f_b.jpg
+cvrpxx; 1; ('cat', 'above', 'car'); on
+rvrxxx; 10; ('road', 'has', 'car')
+rvrxxx; 9; ('car', 'next to', 'trash can')
+rvrxxx; 6; ('car', 'on', 'road')
+rvrxxx; 5; ('car', 'next to', 'car')
+rvrxxx; 2; ('car', 'on', 'road')
+
+imname; 4979927771_6d32994354_b.jpg
+avrxxx; box; [687, 918, 165, 463]; next to; bed; [458, 1023, 1, 155]
+avrxxx; box; [689, 983, 458, 732]; beside; box; [687, 918, 165, 463]
+avrxxx; table; [450, 643, 72, 232]; next to; bed; [458, 1023, 1, 155]
+avrxxx; keyboard; [435, 465, 97, 266]; on; table; [450, 643, 72, 232]
+avrxxx; lamp; [226, 441, 72, 201]; on; table; [450, 643, 72, 232]
+avrxxx; keyboard; [435, 465, 97, 266]; by; lamp; [226, 441, 72, 201]
+
+imname; 9097868893_8f4f604fa9_b.jpg
+cvrsbb; 0; ('bus', 'on', 'grass'); [184, 559, 479, 720]
+cvrobb; 1; ('grass', 'under', 'bus'); [184, 559, 479, 720]
+
+imname; 8187720838_8ff0c02dbd_b.jpg
+rvrxxx; 0; ('bus', 'has', 'roof')
+avrxxx; bus; [266, 707, 148, 903]; on; street; [534, 726, 1, 1023]
+avrxxx; bus; [266, 707, 148, 903]; has; wheel; [594, 701, 458, 515]
+avrxxx; wheel; [594, 701, 458, 515]; attached to; bus; [266, 707, 148, 903]
+avrxxx; wheel; [594, 701, 458, 515]; on; street; [534, 726, 1, 1023]
+avrxxx; bus; [266, 707, 148, 903]; has; license plate; [632, 652, 244, 286]
+avrxxx; license plate; [632, 652, 244, 286]; attached to; bus; [266, 707, 148, 903]
+
+imname; 7611410004_dcd54d8cfe_b.jpg
+cvrsbb; 3; ('tower', 'on', 'building'); [47, 291, 479, 592]
+cvrobb; 4; ('clock', 'over', 'tower'); [47, 291, 479, 592]
+cvrpxx; 4; ('clock', 'over', 'tower'); attached to
+avrxxx; sky; [6, 299, 3, 1022]; over; tower; [47, 291, 479, 592]
+avrxxx; tower; [47, 291, 479, 592]; under; sky; [6, 299, 3, 1022]
+
+imname; 3353263153_1dc0005906_o.jpg
+cvrsbb; 0; ('person', 'use', 'phone'); [99, 385, 283, 519]
+cvrsbb; 1; ('person', 'wear', 'jacket'); [99, 385, 283, 519]
+cvrobb; 1; ('person', 'wear', 'jacket'); [193, 376, 284, 520]
+cvrsbb; 2; ('person', 'on', 'laptop'); [48, 420, 554, 798]
+cvrpxx; 2; ('person', 'on', 'laptop'); use
+cvrsbb; 3; ('person', 'wear', 'glasses'); [48, 420, 554, 798]
+cvrobb; 9; ('person', 'on', 'phone'); [300, 312, 357, 381]
+avrxxx; person; [99, 385, 283, 519]; hold; phone; [300, 312, 357, 381]
+avrxxx; person; [99, 385, 283, 519]; sit on; chair; [185, 388, 243, 562]
+
+imname; 5775635875_1d01bded57_b.jpg
+cvrpxx; 7; ('roof', 'above', 'elephant'); behind
+avrxxx; ball; [313, 356, 619, 676]; near; elephant; [364, 692, 312, 583]
+avrxxx; elephant; [364, 692, 312, 583]; play with; ball; [313, 356, 619, 676]
+avrxxx; ball; [313, 356, 619, 676]; near; person; [221, 476, 374, 522]
+avrxxx; person; [221, 476, 374, 522]; watch; ball; [313, 356, 619, 676]
+
+imname; 5932612176_1df75f5d49_b.jpg
+cvrooc; 0; ('umbrella', 'above', 'glasses'); drinking glass
+cvrsoc; 1; ('glasses', 'under', 'umbrella'); drinking glass
+cvrobb; 2; ('pot', 'has', 'plant'); [350, 489, 524, 630]
+cvrsbb; 6; ('person', 'next to', 'person'); [299, 627, 226, 421]
+rvrxxx; 5; ('tree', 'behind', 'umbrella')
+
+imname; 177941036_5bf2f82044_b.jpg
+cvrooc; 1; ('plate', 'on the right of', 'glasses'); drinking glass
+cvrooc; 3; ('desk', 'beneath', 'glasses'); drinking glass
+cvrsoc; 9; ('glasses', 'on the left of', 'plate'); drinking glass
+
+imname; 2136747174_ab0d432c52_b.jpg
+cvrsbb; 3; ('pot', 'contain', 'plant'); [636, 743, 194, 280]
+cvrobb; 3; ('pot', 'contain', 'plant'); [567, 732, 148, 331]
+
+imname; 5557032034_d167d65920_b.jpg
+cvrobb; 2; ('keyboard', 'below', 'monitor'); [151, 580, 123, 560]
+cvrsbb; 6; ('monitor', 'on top of', 'cabinet'); [151, 580, 123, 560]
+cvrsbb; 7; ('monitor', 'above', 'keyboard'); [151, 580, 123, 560]
+
+imname; 6989051067_ed029c7c61_b.jpg
+cvrooc; 1; ('bench', 'under', 'roof'); canopy
+cvrsoc; 3; ('roof', 'above', 'bench'); canopy
+cvrsoc; 4; ('roof', 'cover', 'bench'); canopy
+
+imname; 3469000344_110a9cdd6a_b.jpg
+rvrxxx; 1; ('cabinet', 'above', 'sink')
+avrxxx; cabinet; [549, 989, 465, 680]; has; sink; [563, 646, 551, 682]
+avrxxx; sink; [563, 646, 551, 682]; in; cabinet; [549, 989, 465, 680]
+avrxxx; shelf; [194, 476, 395, 459]; has; bottle; [246, 334, 412, 444]
+
+imname; 4150504250_c331366673_b.jpg
+cvrsoc; 0; ('truck', 'on', 'street'); car 
+rvrxxx; 4; ('car', 'near', 'bus')
+rvrxxx; 2; ('bus', 'near', 'bus')
+avrxxx; person; [481, 574, 750, 782]; on; street; [406, 767, 1, 1024]
+avrxxx; person; [481, 574, 750, 782]; near; car; [448, 763, 843, 1024]
+avrxxx; car; [489, 631, 1, 108]; on the left of; car; [448, 763, 843, 1024]
+avrxxx; car; [489, 631, 1, 108]; across from; car; [448, 763, 843, 1024]
+
+imname; 4265229058_7eed6cd5c8_b.jpg
+cvrsbb; 0; ('plant', 'in', 'pot'); [390, 474, 762, 884]
+cvrsbb; 1; ('plant', 'on', 'desk'); [390, 474, 762, 884]
+cvrooc; 1; ('plant', 'on', 'desk'); table
+cvrobb; 2; ('pot', 'contain', 'plant'); [390, 474, 762, 884]
+cvrsoc; 3; ('desk', 'has', 'pot'); table
+rvrxxx; 11; ('paper', 'on', 'table')
+rvrxxx; 8; ('sofa', 'beside', 'table')
+
+imname; 5029487385_08bc30de4b_b.jpg
+avrxxx; kite; [195, 220, 561, 594]; fly in; sky; [2, 476, 1, 990]
+avrxxx; sky; [2, 476, 1, 990]; has; kite; [195, 220, 561, 594]
+avrxxx; kite; [500, 546, 64, 214]; on; sand; [546, 666, 1, 999]
+avrxxx; sand; [546, 666, 1, 999]; below; sky; [2, 476, 1, 990]
+avrxxx; sky; [2, 476, 1, 990]; above; sand; [546, 666, 1, 999]
+
+imname; 8709921208_44ec6f66e7_b.jpg
+cvrooc; 0; ('clock', 'on', 'building'); tower
+cvrsoc; 1; ('building', 'under', 'sky'); tower
+cvrsoc; 2; ('building', 'with', 'clock'); tower
+cvrooc; 3; ('sky', 'behind', 'building'); tower
+cvrooc; 4; ('sky', 'over', 'building'); tower
+cvrooc; 8; ('bike', 'near', 'building'); tower
+cvrsbb; 9; ('street', 'under', 'sky'); [593, 679, 1, 1023]
+cvrsbb; 10; ('street', 'under', 'tree'); [593, 679, 1, 1023]
+cvrsbb; 11; ('street', 'under', 'bike'); [593, 679, 1, 1023]
+cvrsbb; 12; ('street', 'under', 'building'); [593, 679, 1, 1023]
+cvrooc; 12; ('street', 'under', 'building'); tower
+
+imname; 5570540658_c010a58d2a_b.jpg
+cvrobb; 6; ('person', 'wear', 'helmet'); [251, 287, 398, 442]
+cvrooc; 12; ('person', 'has', 'hat'); helmet
+cvrobb; 14; ('person', 'has', 'pants'); [444, 569, 508, 566]
+rvrxxx; 5; ('person', 'on', 'street')
+rvrxxx; 4; ('sky', 'above', 'street')
+avrxxx; person; [253, 609, 342, 453]; wear; skis; [580, 675, 297, 524]
+
+imname; 3977856338_3cba7fc321_o.jpg
+cvrsoc; 0; ('cup', 'on', 'table'); drinking glass
+cvrsoc; 1; ('cup', 'beside', 'plate'); drinking glass
+cvrsoc; 2; ('cup', 'in front of', 'person'); drinking glass
+cvrooc; 4; ('pizza', 'near', 'cup'); drinking glass
+cvrsoc; 8; ('glasses', 'beside', 'plate'); drinking glass
+rvrxxx; 13; ('chair', 'in front of', 'plate')
+avrxxx; plate; [161, 294, 3, 186]; in front of; chair; [1, 168, 5, 268]
+
+imname; 4698061679_1ae8c97b16_b.jpg
+cvrobb; 1; ('box', 'on', 'street'); [501, 767, 51, 1023]
+cvrobb; 3; ('person', 'on', 'street'); [501, 767, 51, 1023]
+rvrxxx; 0; ('street', 'next to', 'street')
+avrxxx; person; [477, 685, 627, 699]; carry; bag; [579, 648, 609, 644]
+
+imname; 141099010_e59a15d3a2_b.jpg
+cvrpxx; 1; ('bed', 'near', 'bed'); beside
+
+
+### Start of images with index 101 to 200 ###
+
+imname; 8228121387_6c712cb58a_b.jpg
+cvrobb; 0; ('person', 'has', 'plate'); [493, 532, 268, 361]
+cvrpxx; 4; ('pizza', 'in', 'box'); beside
+cvrpxx; 6; ('plate', 'on', 'table'); above
+avrxxx; person; [194, 579, 264, 621]; hold; plate; [493, 532, 268, 361]
+avrxxx; hand; [727, 783, 1, 87]; near; pizza; [807, 871, 100, 309]
+avrxxx; hand; [727, 783, 1, 87]; near; box; [653, 804, 217, 566]
+
+imname; 8594446404_1a36fe8c97_b.jpg
+cvrobb; 0; ('bike', 'on', 'street'); [324, 670, 1, 999]
+cvrpxx; 2; ('helmet', 'on', 'bike'); with
+cvrobb; 3; ('helmet', 'over', 'street'); [324, 670, 1, 999]
+cvrobb; 5; ('post', 'on', 'street'); [324, 670, 1, 999]
+avrxxx; bike; [367, 533, 268, 542]; lean on; post; [387, 535, 369, 385]
+avrxxx; bike; [367, 533, 268, 542]; touch; post; [387, 535, 369, 385]
+avrxxx; bus; [162, 426, 479, 836]; on; street; [324, 670, 1, 999]
+avrxxx; bike; [367, 533, 268, 542]; near; bus; [162, 426, 479, 836]
+avrxxx; traffic light; [48, 116, 822, 851]; above; bus; [162, 426, 479, 836]
+avrxxx; bus; [162, 426, 479, 836]; below; traffic light; [48, 116, 822, 851]
+avrxxx; traffic light; [48, 116, 822, 851]; over; street; [324, 670, 1, 999]
+avrxxx; street; [324, 670, 1, 999]; under; traffic light; [48, 116, 822, 851]
+
+imname; 8871083790_9f901032cb_b.jpg
+cvrsoc; 9; ('plate', 'above', 'road'); license plate
+avrxxx; bus; [73, 609, 142, 874]; contain; person; [214, 315, 324, 415]
+avrxxx; bus; [73, 609, 142, 874]; has; license plate; [493, 530, 274, 382]
+avrxxx; license plate; [493, 530, 274, 382]; attached to; bus; [73, 609, 142, 874]
+avrxxx; bus; [73, 609, 142, 874]; has; wheel; [459, 610, 524, 624]
+avrxxx; wheel; [459, 610, 524, 624]; attached to; bus; [73, 609, 142, 874]
+avrxxx; wheel; [459, 610, 524, 624]; on; street; [433, 674, 4, 1020]
+
+imname; 7366789750_a206640468_b.jpg
+cvrooc; 4; ('person', 'has', 'glasses'); drinking glass
+cvrsbb; 7; ('plate', 'on', 'table'); [549, 581, 651, 731]
+cvrobb; 7; ('plate', 'on', 'table'); [525, 586, 509, 877]
+avrxxx; person; [225, 551, 334, 470]; hold; drinking glass; [365, 406, 449, 468]
+avrxxx; bottle; [334, 391, 428, 459]; next to; drinking glass; [365, 406, 449, 468]
+avrxxx; table; [525, 586, 509, 877]; near; chair; [406, 585, 902, 1022]
+
+imname; 2646539163_f11cc5d822_b.jpg
+cvrobb; 7; ('person', 'next to', 'person'); [102, 274, 601, 732]
+cvrpxx; 7; ('person', 'next to', 'person'); near
+cvrsbb; 13; ('person', 'wear', 'shirt'); [99, 289, 924, 973]
+avrxxx; person; [123, 286, 130, 293]; ride; skateboard; [283, 302, 142, 173]
+avrxxx; person; [123, 286, 130, 293]; wear; helmet; [125, 144, 176, 202]
+avrxxx; person; [123, 286, 130, 293]; wear; shirt; [146, 203, 166, 234]
+
+imname; 2555357520_5fce36cf09_b.jpg
+cvrobb; 1; ('bottle', 'near', 'plant'); [1, 270, 484, 682]
+cvrpxx; 1; ('bottle', 'near', 'plant'); beside
+cvrsbb; 2; ('paper', 'on', 'table'); [481, 902, 1, 681]
+rvrxxx; 3; ('plant', 'on', 'table')
+avrxxx; plant; [1, 270, 484, 682]; in; basket; [252, 450, 538, 681]
+avrxxx; basket; [252, 450, 538, 681]; has; plant; [1, 270, 484, 682]
+avrxxx; basket; [252, 450, 538, 681]; contain; plant; [1, 270, 484, 682]
+avrxxx; bottle; [185, 397, 423, 485]; next to; basket; [252, 450, 538, 681]
+
+imname; 3584337772_8b79dd6e4c_o.jpg
+cvrooc; 1; ('person', 'has', 'glasses'); sunglasses
+cvrobb; 2; ('person', 'wear', 'sunglasses'); [271, 310, 102, 208]
+cvrsbb; 15; ('sunglasses', 'on', 'person'); [271, 310, 102, 208]
+
+imname; 6082726280_2592fc2929_b.jpg
+cvrsbb; 0; ('person', 'wear', 'shirt'); [277, 364, 272, 439]
+cvrsbb; 1; ('person', 'hold', 'computer'); [277, 364, 272, 439]
+cvrooc; 1; ('person', 'hold', 'computer'); laptop
+cvrsbb; 2; ('person', 'in front of', 'pillow'); [277, 364, 272, 439]
+cvrsbb; 3; ('person', 'above', 'desk'); [277, 364, 272, 439]
+cvrobb; 4; ('pillow', 'behind', 'person'); [277, 364, 272, 439]
+cvrooc; 8; ('bag', 'behind', 'computer'); laptop
+cvrooc; 11; ('person', 'has', 'computer'); laptop
+
+imname; 8578481575_6239b870ab_b.jpg
+rvrxxx; 4; ('person', 'wear', 'jacket')
+
+imname; 6318833559_597c34646e_b.jpg
+cvrobb; 3; ('motorcycle', 'carry', 'person'); [305, 399, 360, 402]
+cvrsbb; 9; ('helmet', 'on', 'person'); [302, 319, 368, 392]
+
+imname; 6930980950_797f2c4b9f_b.jpg
+cvrsbb; 0; ('person', 'next to', 'person'); [204, 553, 424, 579]
+cvrobb; 0; ('person', 'next to', 'person'); [117, 630, 576, 805]
+cvrsbb; 1; ('person', 'wear', 'jeans'); [204, 553, 424, 579]
+cvrsbb; 2; ('person', 'next to', 'person'); [117, 630, 576, 805]
+cvrobb; 2; ('person', 'next to', 'person'); [204, 553, 424, 579]
+cvrsbb; 3; ('person', 'wear', 'shorts'); [117, 630, 576, 805]
+cvrsbb; 4; ('person', 'wear', 'shorts'); [117, 630, 576, 805]
+cvrpxx; 4; ('person', 'wear', 'shorts'); has
+cvrsbb; 5; ('person', 'near', 'person'); [117, 630, 576, 805]
+cvrobb; 5; ('person', 'near', 'person'); [204, 553, 424, 579]
+cvrsbb; 6; ('person', 'near', 'counter'); [117, 630, 576, 805]
+avrxxx; cup; [587, 674, 429, 503]; on; counter; [548, 756, 11, 764]
+avrxxx; plate; [558, 619, 195, 381]; on; counter; [548, 756, 11, 764]
+avrxxx; cup; [587, 674, 429, 503]; beside; plate; [558, 619, 195, 381]
+avrxxx; plate; [558, 619, 195, 381]; next to; cup; [587, 674, 429, 503]
+avrxxx; counter; [548, 756, 11, 764]; under; cup; [587, 674, 429, 503]
+avrxxx; counter; [548, 756, 11, 764]; near; person; [117, 630, 576, 805]
+
+imname; 4205648420_a78d955dec_o.jpg
+avrxxx; teddy bear; [8, 479, 145, 394]; wear; shirt; [123, 400, 144, 394]
+avrxxx; teddy bear; [8, 479, 145, 394]; wear; hat; [6, 29, 213, 320]
+avrxxx; teddy bear; [8, 479, 145, 394]; wear; shorts; [339, 480, 168, 353]
+avrxxx; shirt; [123, 400, 144, 394]; on; teddy bear; [8, 479, 145, 394]
+avrxxx; hat; [6, 29, 213, 320]; on; teddy bear; [8, 479, 145, 394]
+avrxxx; shorts; [339, 480, 168, 353]; on; teddy bear; [8, 479, 145, 394]
+avrxxx; hat; [6, 29, 213, 320]; above; shirt; [123, 400, 144, 394]
+avrxxx; shirt; [123, 400, 144, 394]; below; hat; [6, 29, 213, 320]
+
+imname; 405314222_af8f564013_o.jpg
+cvrsbb; 0; ('person', 'wear', 'hat'); [319, 600, 647, 771]
+cvrsbb; 1; ('person', 'has', 'shirt'); [319, 600, 647, 771]
+cvrobb; 3; ('person', 'look at', 'person'); [319, 600, 647, 771]
+
+imname; 8242421526_e2178b7e85_b.jpg
+cvrobb; 0; ('bus', 'on', 'road'); [285, 572, 1, 1023]
+cvrobb; 2; ('bus', 'over', 'road'); [285, 572, 1, 1023]
+cvrobb; 3; ('bus', 'above', 'road'); [285, 572, 1, 1023]
+cvrsbb; 4; ('road', 'under', 'bus'); [285, 572, 1, 1023]
+cvrsbb; 5; ('road', 'beneath', 'bus'); [285, 572, 1, 1023]
+cvrobb; 6; ('car', 'on', 'road'); [285, 572, 1, 1023]
+cvrooc; 7; ('car', 'behind', 'van'); car
+cvrsoc; 10; ('van', 'on', 'road'); car
+cvrsoc; 11; ('van', 'in front of', 'car'); car
+rvrxxx; 9; ('cone', 'on', 'road')
+
+imname; 8296468575_8b96193184_b.jpg
+rvrxxx; 6; ('person', 'hold', 'wheel')
+avrxxx; bus; [153, 589, 279, 760]; contain; person; [388, 502, 515, 566]
+
+imname; 4407337743_22edebafb6_o.jpg
+cvrpxx; 3; ('tower', 'behind', 'clock'); contain
+cvrobb; 4; ('tower', 'next to', 'trees'); [115, 351, 411, 530]
+cvrooc; 4; ('tower', 'next to', 'trees'); tree
+avrxxx; traffic light; [221, 309, 479, 509]; in front of; tree; [115, 351, 411, 530]
+avrxxx; traffic light; [221, 309, 479, 509]; on top of; post; [302, 458, 508, 533]
+
+imname; 2287052188_f232471fd9_b.jpg
+cvrpxx; 9; ('person', 'carry', 'snowboard'); hold
+cvrpxx; 10; ('person', 'next to', 'person'); near
+avrxxx; person; [287, 678, 7, 184]; with; snowboard; [401, 679, 38, 160]
+avrxxx; person; [287, 678, 7, 184]; has; snowboard; [401, 679, 38, 160]
+
+imname; 5388505432_fc3e1b20db_b.jpg
+rvrxxx; 2; ('tree', 'next to', 'horse')
+avrxxx; sky; [4, 259, 1, 1018]; over; horse; [356, 540, 126, 351]
+avrxxx; sky; [4, 259, 1, 1018]; over; street; [501, 679, 3, 1022]
+
+imname; 383936660_0e10f40e00_o.jpg
+cvrpxx; 0; ('person', 'on', 'sofa'); sit next to
+cvrpxx; 1; ('sofa', 'under', 'person'); next to
+cvrpxx; 4; ('dog', 'on', 'person'); next to
+cvrsbb; 8; ('person', 'sit on', 'sofa'); [225, 751, 414, 723]
+cvrsbb; 9; ('person', 'sit next to', 'dog'); [225, 751, 414, 723]
+avrxxx; person; [395, 816, 37, 434]; next to; sofa; [264, 899, 256, 1199]
+
+imname; 5611889975_8af5fd76b5_b.jpg
+cvrpxx; 9; ('post', 'next to', 'person'); near
+
+imname; 500336501_2ab8bd519b_b.jpg
+avrxxx; vase; [476, 630, 565, 632]; on; table; [600, 768, 155, 931]
+avrxxx; bowl; [604, 665, 508, 607]; on; table; [600, 768, 155, 931]
+avrxxx; plant; [210, 479, 521, 717]; in; vase; [476, 630, 565, 632]
+avrxxx; vase; [476, 630, 565, 632]; contain; plant; [210, 479, 521, 717]
+avrxxx; table; [600, 768, 155, 931]; under; bowl; [604, 665, 508, 607]
+avrxxx; table; [600, 768, 155, 931]; beneath; vase; [476, 630, 565, 632]
+avrxxx; bowl; [604, 665, 508, 607]; next to; vase; [476, 630, 565, 632]
+avrxxx; bowl; [604, 665, 508, 607]; below; plant; [210, 479, 521, 717]
+
+imname; 9221153250_a4963ac75a_o.jpg
+cvrsoc; 1; ('glasses', 'on', 'table'); drinking glass
+cvrsoc; 16; ('glasses', 'on', 'table'); drinking glass
+
+imname; 9094361636_a194d14f41_b.jpg
+cvrsoc; 0; ('glasses', 'in front of', 'plate'); drinking glass
+cvrsoc; 1; ('glasses', 'on', 'table'); drinking glass
+
+imname; 7845287468_fbde9ac4bc_b.jpg
+cvrobb; 1; ('person', 'use', 'laptop'); [336, 552, 93, 523]
+cvrobb; 2; ('person', 'near', 'desk'); [488, 681, 1, 936]
+cvrooc; 2; ('person', 'near', 'desk'); table
+cvrpxx; 2; ('person', 'near', 'table'); at
+cvrsbb; 3; ('laptop', 'on', 'table'); [336, 552, 93, 523]
+rvrxxx; 9; ('desk', 'near', 'person')
+rvrxxx; 8; ('desk', 'beneath', 'laptop')
+rvrxxx; 7; ('desk', 'below', 'laptop')
+rvrxxx; 6; ('desk', 'under', 'laptop')
+rvrxxx; 4; ('laptop', 'over', 'desk')
+avrxxx; table; [488, 681, 1, 936]; beneath; laptop; [336, 552, 93, 523]
+avrxxx; table; [488, 681, 1, 936]; below; laptop; [336, 552, 93, 523]
+avrxxx; table; [488, 681, 1, 936]; under; laptop; [336, 552, 93, 523]
+avrxxx; table; [488, 681, 1, 936]; next to; person; [189, 551, 361, 918]
+
+imname; 2743361338_3d1a1e3b93_o.png
+cvrobb; 7; ('person', 'wear', 'shirt'); [53, 160, 118, 226]
+
+imname; 9348844330_521d2f6ab1_b.jpg
+cvrpxx; 1; ('sky', 'behind', 'boat'); over
+
+imname; 7989795599_767e772008_b.jpg
+avrxxx; person; [136, 293, 391, 448]; hold; surfboard; [189, 247, 438, 505]
+avrxxx; person; [136, 293, 391, 448]; carry; surfboard; [189, 247, 438, 505]
+avrxxx; surfboard; [479, 528, 467, 587]; under; person; [293, 511, 513, 672]
+
+imname; 297985541_b200edfd05_b.jpg
+cvrooc; 2; ('bag', 'in', 'basket'); waste bin
+cvrsoc; 9; ('basket', 'under', 'desk'); waste bin
+cvrsoc; 10; ('basket', 'next to', 'cabinet'); waste bin
+
+imname; 8315618856_fafc261360_b.jpg
+cvrsoc; 0; ('plate', 'in front of', 'bus'); license plate
+cvrpxx; 0; ('license plate', 'in front of', 'bus'); attached to
+avrxxx; bus; [608, 953, 379, 866]; has; license plate; [913, 938, 480, 553]
+avrxxx; tower; [15, 849, 94, 350]; has; clock; [257, 330, 209, 278]
+avrxxx; clock; [257, 330, 209, 278]; attached to; tower; [15, 849, 94, 350]
+avrxxx; tower; [15, 849, 94, 350]; beside; bus; [608, 953, 379, 866]
+avrxxx; bus; [608, 953, 379, 866]; beside; tower; [15, 849, 94, 350]
+avrxxx; clock; [257, 330, 209, 278]; above; bus; [608, 953, 379, 866]
+avrxxx; bus; [608, 953, 379, 866]; below; clock; [257, 330, 209, 278]
+avrxxx; sky; [1, 590, 1, 881]; over; tower; [15, 849, 94, 350]
+avrxxx; sky; [1, 590, 1, 881]; over; bus; [608, 953, 379, 866]
+avrxxx; tower; [15, 849, 94, 350]; under; sky; [1, 590, 1, 881]
+avrxxx; bus; [608, 953, 379, 866]; under; sky; [1, 590, 1, 881]
+
+imname; 3456395216_241896cfc9_b.jpg
+cvrsoc; 2; ('luggage', 'in', 'hand'); suitcase
+avrxxx; person; [253, 1024, 91, 482]; pull; suitcase; [653, 1009, 358, 497]
+
+imname; 1006083276_0c1a4345fb_o.jpg
+cvrsbb; 0; ('person', 'wear', 'glasses'); [146, 767, 119, 850]
+cvrsbb; 1; ('person', 'has', 'hand'); [146, 767, 119, 850]
+cvrsbb; 2; ('person', 'near', 'person'); [146, 767, 119, 850]
+cvrpxx; 2; ('person', 'near', 'person'); next to
+cvrsbb; 3; ('person', 'hold', 'camera'); [146, 767, 119, 850]
+cvrsbb; 4; ('person', 'wear', 'shirt'); [146, 767, 119, 850]
+cvrobb; 5; ('glasses', 'on', 'person'); [146, 767, 119, 850]
+cvrobb; 8; ('person', 'wear', 'jacket'); [358, 767, 129, 542]
+avrxxx; hand; [482, 609, 478, 556]; touch; person; [150, 766, 123, 545]
+avrxxx; jacket; [358, 767, 129, 542]; cover; shirt; [337, 767, 339, 493]
+
+imname; 8567028114_9608fcbb32_b.jpg
+cvrpxx; 2; ('wheel', 'under', 'bus'); attached to
+cvrobb; 3; ('wheel', 'next to', 'wheel'); [381, 493, 114, 177]
+cvrpxx; 3; ('wheel', 'next to', 'wheel'); near 
+avrxxx; bus; [72, 584, 42, 961]; has; license plate; [528, 560, 640, 695]
+avrxxx; license plate; [528, 560, 640, 695]; attached to; bus; [72, 584, 42, 961]
+
+imname; 4748598087_fe65d988f7_b.jpg
+cvrsoc; 4; ('tree', 'behind', 'person'); trees
+cvrsoc; 5; ('tree', 'under', 'sky'); trees
+cvrsoc; 6; ('shirt', 'on', 'person'); jacket
+cvrsbb; 7; ('mountain', 'behind', 'person'); [166, 337, 103, 166]
+
+imname; 8560892565_a7bcfdf5eb_b.jpg
+avrxxx; bear; [198, 447, 179, 766]; on; bench; [365, 683, 1, 1020]
+avrxxx; bear; [198, 447, 179, 766]; on top of; bench; [365, 683, 1, 1020]
+avrxxx; bear; [198, 447, 179, 766]; lying on; bench; [365, 683, 1, 1020]
+avrxxx; bench; [365, 683, 1, 1020]; in front of; tree; [114, 681, 2, 541]
+avrxxx; bench; [365, 683, 1, 1020]; under; bear; [198, 447, 179, 766]
+
+imname; 8604900616_f3c6dd2bb2_b.jpg
+avrxxx; person; [358, 444, 714, 767]; ride; surfboard; [443, 460, 652, 747]
+avrxxx; person; [358, 444, 714, 767]; stand on; surfboard; [443, 460, 652, 747]
+avrxxx; person; [443, 484, 141, 292]; lying on; surfboard; [466, 480, 143, 320]
+
+imname; 10132007626_6421a783be_b.jpg
+cvrooc; 1; ('boat', 'has', 'roof'); canopy
+cvrpxx; 4; ('roof', 'above', 'building'); attached to
+avrxxx; building; [246, 339, 3, 193]; has; roof; [249, 279, 6, 192]
+avrxxx; sky; [4, 255, 3, 1023]; above; boat; [444, 503, 152, 284]
+avrxxx; sky; [4, 255, 3, 1023]; above; building; [246, 339, 3, 193]
+avrxxx; canopy; [447, 469, 170, 231]; cover; boat; [444, 503, 152, 284]
+
+imname; 4915774151_dec63e724d_b.jpg
+cvrsbb; 0; ('person', 'on', 'horse'); [51, 384, 469, 767]
+cvrsbb; 1; ('person', 'wear', 'hat'); [51, 384, 469, 767]
+cvrsbb; 2; ('person', 'wear', 'coat'); [51, 384, 469, 767]
+cvrsbb; 3; ('person', 'ride', 'horse'); [51, 384, 469, 767]
+cvrsbb; 4; ('person', 'has', 'hat'); [51, 384, 469, 767]
+cvrobb; 5; ('hat', 'on', 'person'); [51, 384, 469, 767]
+avrxxx; horse; [138, 550, 420, 927]; carry; person; [51, 384, 469, 767]
+
+imname; 8693122852_5d9d66f4f0_b.jpg
+avrxxx; person; [349, 413, 479, 535]; in; train; [193, 707, 382, 777]
+avrxxx; person; [295, 404, 565, 623]; in; train; [193, 707, 382, 777]
+avrxxx; person; [349, 413, 479, 535]; ride; train; [193, 707, 382, 777]
+avrxxx; person; [295, 404, 565, 623]; ride; train; [193, 707, 382, 777]
+avrxxx; person; [349, 413, 479, 535]; beside; person; [295, 404, 565, 623]
+avrxxx; person; [295, 404, 565, 623]; next to; person; [349, 413, 479, 535]
+avrxxx; train; [193, 707, 382, 777]; contain; person; [349, 413, 479, 535]
+avrxxx; train; [193, 707, 382, 777]; carry; person; [295, 404, 565, 623]
+
+imname; 3225414118_281e58dfa6_b.jpg
+cvrpxx; 3; ('person', 'above', 'sofa'); next to
+cvrpxx; 4; ('person', 'above', 'pillow'); next to
+
+imname; 8684876231_b43c39146d_b.jpg
+cvrsoc; 6; ('bus', 'on', 'street'); train
+rvrxxx; 3; ('person', 'in front of', 'person')
+
+imname; 8249743841_f6a7e140df_o.jpg
+cvrooc; 3; ('person', 'on', 'computer'); monitor
+cvrpxx; 3; ('person', 'on', 'monitor'); next to
+cvrooc; 4; ('person', 'use', 'computer'); monitor
+cvrooc; 5; ('person', 'look at', 'computer'); monitor
+
+imname; 2347297994_2b9132597b_o.jpg
+cvrobb; 4; ('snowboard', 'under', 'person'); [27, 493, 80, 340]
+cvrpxx; 4; ('snowboard', 'under', 'person'); with
+cvrsbb; 9; ('person', 'wear', 'jacket'); [27, 493, 80, 340] 
+cvrpxx; 9; ('person', 'wear', 'jacket'); has
+cvrsbb; 10; ('person', 'wear', 'pants'); [27, 493, 80, 340]
+cvrpxx; 10; ('person', 'wear', 'pants'); has
+cvrsbb; 11; ('person', 'above', 'ramp'); [27, 493, 80, 340]
+cvrsbb; 12; ('person', 'stand on', 'snowboard'); [27, 493, 80, 340]
+
+imname; 8572428809_5e50b4e861_b.jpg
+cvrpxx; 0; ('shirt', 'over', 'pants'); above
+rvrxxx; 1; ('tree', 'next to', 'shirt')
+
+imname; 8445228379_d030bb2d4d_b.jpg
+rvrxxx; 14; ('roof', 'on', 'building')
+rvrxxx; 12; ('wheel', 'below', 'bed')
+rvrxxx; 9; ('sky', 'above', 'roof')
+rvrxxx; 7; ('sky', 'above', 'tree')
+rvrxxx; 4; ('tree', 'on', 'street')
+
+imname; 9919023913_194d53e585_b.jpg
+cvrobb; 1; ('car', 'above', 'road'); [418, 684, 1, 1023]
+cvrobb; 2; ('car', 'on', 'road'); [418, 684, 1, 1023]
+cvrobb; 4; ('bus', 'on', 'road'); [418, 684, 1, 1023]
+cvrobb; 10; ('sky', 'above', 'road'); [418, 684, 1, 1023]
+cvrsoc; 11; ('tree', 'beside', 'car'); trees
+cvrsbb; 12; ('trees', 'on', 'street'); [1, 595, 2, 495]
+cvrobb; 12; ('trees', 'on', 'street'); [418, 684, 1, 1023]
+cvrobb; 13; ('wheel', 'on', 'road'); [418, 684, 1, 1023]
+avrxxx; bus; [269, 495, 273, 605]; carry; bike; [376, 469, 446, 586]
+
+imname; 8481199781_084e9fec2c_b.jpg
+avrxxx; person; [782, 954, 417, 477]; on; sand; [571, 1023, 1, 683]
+avrxxx; person; [782, 954, 417, 477]; stand on; sand; [571, 1023, 1, 683]
+avrxxx; umbrella; [689, 839, 455, 613]; in; sand; [571, 1023, 1, 683]
+avrxxx; umbrella; [689, 839, 455, 613]; near; person; [782, 954, 417, 477]
+avrxxx; person; [782, 954, 417, 477]; near; umbrella; [689, 839, 455, 613]
+
+imname; 2394762096_199450ccdf_b.jpg
+avrxxx; person; [5, 676, 713, 1023]; next to; person; [123, 676, 191, 687]
+avrxxx; person; [123, 676, 191, 687]; beside; person; [5, 676, 713, 1023]
+avrxxx; person; [5, 676, 713, 1023]; with; person; [123, 676, 191, 687]
+avrxxx; person; [5, 676, 713, 1023]; wear; jacket; [99, 673, 716, 1023]
+avrxxx; person; [5, 676, 713, 1023]; wear; shirt; [212, 415, 917, 1005]
+avrxxx; jacket; [99, 673, 716, 1023]; cover; shirt; [212, 415, 917, 1005]
+avrxxx; person; [123, 676, 191, 687]; has; face; [196, 380, 337, 485]
+avrxxx; person; [123, 676, 191, 687]; has; hand; [314, 477, 502, 686]
+avrxxx; hand; [314, 477, 502, 686]; next to; face; [196, 380, 337, 485]
+
+imname; 502516671_61032ccfbe_o.jpg
+rvrxxx; 0; ('keyboard', 'on', 'laptop')
+avrxxx; laptop; [212, 627, 465, 939]; beside; bowl; [487, 665, 742, 994]
+avrxxx; bowl; [487, 665, 742, 994]; next to; laptop; [212, 627, 465, 939]
+avrxxx; phone; [694, 790, 883, 1025]; beside; bowl; [487, 665, 742, 994]
+avrxxx; bowl; [487, 665, 742, 994]; next to; phone; [694, 790, 883, 1025]
+avrxxx; laptop; [212, 627, 465, 939]; near; phone; [694, 790, 883, 1025]
+avrxxx; phone; [694, 790, 883, 1025]; near; laptop; [212, 627, 465, 939]
+avrxxx; laptop; [212, 627, 465, 939]; on the left of; phone; [694, 790, 883, 1025]
+avrxxx; phone; [694, 790, 883, 1025]; on the right of; laptop; [212, 627, 465, 939]
+
+imname; 4314224115_10727fea00_o.jpg
+cvrobb; 0; ('horse', 'on', 'street'); [489, 732, 1, 1099]
+cvrooc; 0; ('horse', 'on', 'street'); sand
+cvrsbb; 1; ('person', 'on', 'horse'); [468, 595, 798, 838]
+avrxxx; person; [468, 595, 798, 838]; ride; horse; [503, 663, 749, 887]
+avrxxx; horse; [503, 663, 749, 887]; stand on; sand; [489, 732, 1, 1099]
+avrxxx; sand; [489, 732, 1, 1099]; under; horse; [503, 663, 749, 887]
+avrxxx; person; [420, 474, 780, 819]; behind; person; [468, 595, 798, 838]
+
+imname; 5242879582_06afc5beb6_b.jpg
+cvrsbb; 0; ('mountain', 'below', 'sky'); [218, 326, 201, 530]
+cvrsbb; 1; ('mountain', 'beneath', 'sky'); [218, 326, 201, 530]
+cvrsbb; 2; ('mountain', 'under', 'sky'); [218, 326, 201, 530]
+cvrobb; 4; ('sky', 'over', 'mountain'); [218, 326, 201, 530]
+cvrobb; 7; ('sky', 'above', 'mountain'); [218, 326, 201, 530]
+cvrsbb; 13; ('person', 'under', 'sky'); [323, 833, 111, 312]
+cvrsbb; 14; ('helmet', 'on', 'person'); [323, 364, 191, 250]
+cvrobb; 14; ('helmet', 'on', 'person'); [323, 833, 111, 312]
+rvrxxx; 12; ('person', 'on', 'street')
+rvrxxx; 11; ('street', 'below', 'person')
+rvrxxx; 10; ('street', 'below', 'sky')
+rvrxxx; 9; ('street', 'under', 'sky')
+rvrxxx; 8; ('street', 'beneath', 'sky')
+rvrxxx; 6; ('sky', 'over', 'street')
+rvrxxx; 5; ('sky', 'above', 'street')
+rvrxxx; 3; ('mountain', 'above', 'street')
+avrxxx; person; [323, 833, 111, 312]; wear; helmet; [323, 364, 191, 250]
+avrxxx; person; [323, 833, 111, 312]; has; helmet; [323, 364, 191, 250]
+avrxxx; person; [323, 833, 111, 312]; wear; skis; [758, 949, 166, 271]
+avrxxx; person; [323, 833, 111, 312]; has; skis; [758, 949, 166, 271]
+avrxxx; skis; [758, 949, 166, 271]; under; person; [323, 833, 111, 312]
+avrxxx; sky; [1, 318, 1, 630]; over; person; [323, 833, 111, 312]
+
+imname; 9492482681_ae2e314b8e_b.jpg
+cvrobb; 0; ('sky', 'above', 'train'); [307, 437, 111, 965]
+cvrooc; 4; ('tree', 'behind', 'train'); train engine
+cvrpxx; 4; ('tree', 'behind', 'train engine'); next to
+cvrooc; 6; ('tower', 'behind', 'train'); train engine
+avrxxx; sky; [7, 299, 8, 1019]; above; train engine; [305, 425, 118, 406]
+avrxxx; train; [307, 437, 111, 965]; has; train engine; [305, 425, 118, 406]
+avrxxx; train engine; [305, 425, 118, 406]; pull; train; [307, 437, 111, 965]
+
+imname; 8737869589_16ab5a83c4_b.jpg
+cvrpxx; 2; ('person', 'above', 'horse'); on
+avrxxx; person; [9, 514, 266, 472]; above; grass; [82, 622, 2, 976]
+avrxxx; person; [9, 514, 266, 472]; sit on; horse; [214, 648, 209, 592]
+avrxxx; horse; [214, 648, 209, 592]; carry; person; [9, 514, 266, 472]
+avrxxx; person; [9, 514, 266, 472]; wear; helmet; [13, 73, 339, 412]
+avrxxx; person; [9, 514, 266, 472]; has; helmet; [13, 73, 339, 412]
+avrxxx; helmet; [13, 73, 339, 412]; on; person; [9, 514, 266, 472]
+
+imname; 4357208606_ce0f096a70_b.jpg
+cvrpxx; 2; ('person', 'skate on', 'ramp'); on
+cvrobb; 4; ('person', 'wear', 'pants'); [287, 483, 406, 553]
+cvrsbb; 9; ('person', 'above', 'ramp'); [30, 226, 150, 287]
+rvrxxx; 8; ('ramp', 'on', 'mountain')
+avrxxx; ramp; [472, 1023, 1, 682]; under; person; [111, 598, 354, 603]
+avrxxx; person; [30, 226, 150, 287]; near; person; [111, 598, 354, 603]
+
+imname; 3475008499_d13466f1f1_b.jpg
+cvrpxx; 2; ('street', 'under', 'trees'); next to
+rvrxxx; 9; ('sky', 'above', 'building')
+avrxxx; giraffe; [677, 968, 113, 445]; beside; giraffe; [737, 1022, 8, 92]
+avrxxx; giraffe; [737, 1022, 8, 92]; next to; giraffe; [677, 968, 113, 445]
+avrxxx; giraffe; [737, 1022, 8, 92]; stand on; street; [911, 1023, 4, 766]
+avrxxx; giraffe; [677, 968, 113, 445]; next to; trees; [466, 902, 1, 762]
+
+imname; 155149707_f7b5373dba_b.jpg
+cvrsbb; 0; ('bottle', 'beside', 'person'); [105, 356, 416, 488]
+cvrobb; 1; ('person', 'next to', 'bottle'); [105, 356, 416, 488]
+
+imname; 1269554185_dd621eb4e1_o.jpg
+cvrobb; 0; ('person', 'hold', 'phone'); [189, 219, 191, 210]
+cvrobb; 2; ('person', 'use', 'phone'); [189, 219, 191, 210]
+cvrobb; 7; ('person', 'look at', 'phone'); [189, 219, 191, 210]
+cvrsbb; 9; ('phone', 'over', 'pants'); [189, 219, 191, 210]
+avrxxx; person; [80, 631, 121, 314]; stand on; street; [557, 638, 1, 426]
+avrxxx; person; [80, 631, 121, 314]; has; hand; [209, 243, 177, 209]
+avrxxx; person; [80, 631, 121, 314]; has; face; [126, 166, 182, 233]
+
+imname; 5863952199_6fcc86e248_b.jpg
+cvrpxx; 5; ('road', 'under', 'building'); next to
+cvrpxx; 8; ('sky', 'behind', 'building'); above
+cvrpxx; 10; ('sky', 'behind', 'airplane'); over
+
+imname; 8446166390_8517935f55_b.jpg
+rvrxxx; 4; ('roof', 'above', 'train')
+rvrxxx; 1; ('train', 'has', 'roof')
+avrxxx; bus; [2, 677, 7, 462]; beside; train; [235, 598, 435, 1021]
+avrxxx; bus; [2, 677, 7, 462]; on the left of; train; [235, 598, 435, 1021]
+avrxxx; train; [235, 598, 435, 1021]; on the right of; bus; [2, 677, 7, 462]
+
+imname; 5715148858_a39a0e7a2a_b.jpg
+cvrsbb; 0; ('person', 'wear', 'glasses'); [76, 694, 308, 697]
+cvrooc; 0; ('person', 'wear', 'glasses'); sunglasses
+cvrsbb; 1; ('person', 'wear', 'hat'); [76, 694, 308, 697]
+cvrsbb; 2; ('person', 'wear', 'jacket'); [76, 694, 308, 697]
+cvrsbb; 3; ('person', 'wear', 'pants'); [76, 694, 308, 697]
+cvrsbb; 4; ('person', 'in front of', 'person'); [76, 694, 308, 697]
+cvrsbb; 5; ('person', 'next to', 'person'); [76, 694, 308, 697]
+cvrpxx; 5; ('person', 'next to', 'person'); in front of
+cvrobb; 6; ('snowboard', 'in front of', 'person'); [76, 694, 308, 697] 
+cvrobb; 7; ('trees', 'behind', 'person'); [76, 694, 308, 697]
+cvrsbb; 8; ('person', 'wear', 'jacket'); [201, 317, 675, 714]
+cvrpxx; 12; ('person', 'in front of', 'person'); on the left of
+cvrobb; 14; ('person', 'behind', 'person'); [76, 694, 308, 697]
+cvrpxx; 15; ('person', 'behind', 'person'); beside
+avrxxx; person; [76, 694, 308, 697]; with; snowboard; [642, 766, 106, 1023]
+avrxxx; person; [76, 694, 308, 697]; has; snowboard; [642, 766, 106, 1023]
+
+imname; 3186048325_17f7b2428a_b.jpg
+cvrobb; 0; ('person', 'wear', 'hat'); [144, 173, 710, 753]
+cvrobb; 1; ('person', 'wear', 'pants'); [242, 333, 690, 813]
+cvrooc; 1; ('person', 'wear', 'pants'); shorts
+avrxxx; person; [74, 420, 690, 830]; on; skateboard; [323, 430, 708, 797]
+avrxxx; person; [74, 420, 690, 830]; ride; skateboard; [323, 430, 708, 797]
+avrxxx; sky; [15, 264, 1, 1022]; above; person; [74, 420, 690, 830]
+
+imname; 3407689174_2a183e5464_b.jpg
+rvrxxx; 2; ('table', 'hold', 'vase')
+
+imname; 157595351_6326f90542_o.jpg
+cvrooc; 7; ('person', 'wear', 'shoes'); shoe
+avrxxx; person; [394, 987, 134, 312]; skate on; street; [879, 1149, 2, 798]
+avrxxx; skateboard; [938, 1045, 72, 341]; on; street; [879, 1149, 2, 798]
+avrxxx; skateboard; [938, 1045, 72, 341]; skate on; street; [879, 1149, 2, 798]
+avrxxx; person; [394, 987, 134, 312]; stand on; skateboard; [938, 1045, 72, 341]
+
+imname; 5564918619_bdb87d2833_b.jpg
+avrxxx; sky; [5, 719, 2, 1022]; over; building; [10, 763, 4, 790]
+avrxxx; building; [10, 763, 4, 790]; against; sky; [5, 719, 2, 1022]
+
+imname; 6917705703_fb8151a7e7_b.jpg
+cvrobb; 5; ('person', 'in front of', 'building'); [12, 293, 13, 339]
+cvrsbb; 9; ('building', 'in front of', 'person'); [12, 293, 13, 339]
+cvrsbb; 10; ('building', 'near', 'car'); [12, 293, 13, 339]
+cvrsbb; 12; ('car', 'on', 'street'); [239, 318, 1, 40]
+cvrsbb; 13; ('car', 'has', 'wheel'); [239, 318, 1, 40]
+cvrobb; 13; ('car', 'has', 'wheel'); [287, 318, 1, 15]
+cvrsbb; 14; ('car', 'near', 'building'); [239, 318, 1, 40]
+cvrobb; 14; ('car', 'near', 'building'); [12, 293, 13, 339]
+
+imname; 2163160471_fe12fb0ca6_b.jpg
+cvrobb; 0; ('wheel', 'below', 'car'); [254, 604, 16, 1023]
+cvrpxx; 0; ('wheel', 'below', 'car'); attached to
+cvrsbb; 1; ('car', 'above', 'wheel'); [254, 604, 16, 1023]
+cvrpxx; 1; ('car', 'above', 'wheel'); has
+cvrsbb; 2; ('car', 'next to', 'street'); [254, 604, 16, 1023]
+cvrobb; 2; ('car', 'next to', 'street'); [265, 767, 1, 1023]
+cvrpxx; 2; ('car', 'next to', 'street'); park on
+cvrsbb; 3 ;('car', 'on', 'road'); [254, 604, 16, 1023]
+cvrobb; 3; ('car', 'on', 'road'); [265, 767, 1, 1023]
+cvrsbb; 4; ('car', 'has', 'wheel'); [254, 604, 16, 1023]
+avrxxx; paper; [597, 636, 350, 442]; on; street; [265, 767, 1, 1023]
+avrxxx; paper; [597, 636, 350, 442]; lying on; street; [265, 767, 1, 1023]
+avrxxx; wheel; [470, 614, 165, 319]; near; wheel; [458, 598, 811, 969]
+
+imname; 9155420776_7e805ecb7c_b.jpg
+avrxxx; chair; [560, 636, 56, 202]; at; counter; [380, 519, 26, 1023]
+avrxxx; chair; [560, 636, 56, 202]; below; counter; [380, 519, 26, 1023]
+avrxxx; chair; [560, 636, 56, 202]; next to; counter; [380, 519, 26, 1023]
+avrxxx; drinking glass; [412, 449, 238, 274]; on; counter; [380, 519, 26, 1023]
+avrxxx; counter; [380, 519, 26, 1023]; has; drinking glass; [412, 449, 238, 274]
+avrxxx; plate; [369, 384, 497, 600]; behind; counter; [380, 519, 26, 1023]
+avrxxx; person; [213, 393, 881, 1022]; behind; counter; [380, 519, 26, 1023]
+
+imname; 4548112138_1b934e209f_b.jpg
+cvrooc; 2; ('person', 'wear', 'pants'); jeans
+avrxxx; person; [132, 392, 355, 438]; carry; skateboard; [225, 275, 321, 460]
+avrxxx; person; [171, 412, 115, 173]; carry; skateboard; [244, 302, 170, 216]
+
+imname; 8253211362_1111afc52e_b.jpg
+avrxxx; plate; [503, 565, 51, 155]; on; table; [488, 715, 5, 1022]
+avrxxx; table; [488, 715, 5, 1022]; under; plate; [503, 565, 51, 155]
+avrxxx; person; [63, 501, 593, 902]; wear; jacket; [157, 444, 657, 902]
+avrxxx; person; [63, 501, 593, 902]; has; hand; [308, 356, 593, 660]
+
+imname; 3075720505_529ae34cda_b.jpg
+cvrpxx; 2; ('sofa', 'in front of', 'tree'); near
+avrxxx; ball; [544, 617, 617, 667]; next to; tree; [47, 619, 555, 853]
+avrxxx; ball; [544, 617, 617, 667]; next to; table; [517, 613, 476, 652]
+
+imname; 7503712440_d88421f5db_b.jpg
+cvrobb; 2; ('person', 'on the left of', 'person'); [34, 161, 688, 775]
+rvrxxx; 8; ('motorcycle', 'has', 'engine')
+
+imname; 9339867258_4d3488804f_b.jpg
+cvrobb; 0; ('person', 'by', 'truck'); [273, 574, 345, 557]
+cvrsbb; 1; ('truck', 'has', 'wheel'); [273, 574, 345, 557]
+cvrsbb; 2; ('truck', 'behind', 'truck'); [273, 574, 345, 557]
+cvrobb; 2; ('truck', 'behind', 'truck'); [168, 647, 553, 1018]
+avrxxx; truck; [168, 647, 553, 1018]; has; canopy; [219, 290, 356, 612]
+avrxxx; canopy; [219, 290, 356, 612]; attached to; truck; [168, 647, 553, 1018]
+avrxxx; trash can; [549, 650, 557, 640]; next to; truck; [168, 647, 553, 1018]
+avrxxx; truck; [168, 647, 553, 1018]; next to; trash can; [549, 650, 557, 640]
+avrxxx; person; [426, 607, 76, 154]; near; truck; [273, 574, 345, 557]
+avrxxx; truck; [273, 574, 345, 557]; near; person; [426, 607, 76, 154]
+
+imname; 4294796626_17358688cb_b.jpg
+cvrsoc; 1; ('glasses', 'on', 'desk'); drinking glass
+cvrsoc; 2; ('glasses', 'on the right of', 'laptop'); drinking glass
+cvrsbb; 3; ('camera', 'on', 'shelf'); [236, 377, 593, 694]
+cvrsoc; 3; ('camera', 'on', 'shelf'); box
+avrxxx; shelf; [220, 398, 472, 805]; behind; laptop; [269, 593, 359, 619]
+avrxxx; box; [236, 377, 593, 694]; next to; laptop; [269, 593, 359, 619]
+avrxxx; box; [236, 377, 593, 694]; next to; drinking glass; [366, 471, 662, 724]
+avrxxx; box; [236, 377, 593, 694]; above; drinking glass; [366, 471, 662, 724]
+
+imname; 6834952690_740e6ea3f8_b.jpg
+cvrooc; 2; ('stove', 'has', 'pot'); cooking pot
+cvrsoc; 3; ('pot', 'on', 'stove'); cooking pot
+avrxxx; counter; [449, 618, 1, 758]; next to; cooking pot; [480, 572, 771, 879]
+avrxxx; cooking pot; [480, 572, 771, 879]; beside; counter; [449, 618, 1, 758]
+avrxxx; counter; [449, 618, 1, 758]; on the left of; cooking pot; [480, 572, 771, 879]
+
+imname; 9901558526_1fdcd0227c_b.jpg
+avrxxx; boat; [358, 550, 178, 1023]; behind; boat; [1, 638, 465, 967]
+avrxxx; boat; [1, 638, 465, 967]; in front of; boat; [358, 550, 178, 1023]
+avrxxx; sky; [1, 463, 1, 1023]; over; boat; [358, 550, 178, 1023]
+avrxxx; sky; [1, 463, 1, 1023]; over; boat; [1, 638, 465, 967]
+avrxxx; boat; [358, 550, 178, 1023]; under; sky; [1, 463, 1, 1023]
+avrxxx; boat; [1, 638, 465, 967]; under; sky; [1, 463, 1, 1023]
+
+imname; 10142659205_1158853119_b.jpg
+cvrsbb; 1; ('van', 'on', 'road'); [398, 482, 678, 828]
+cvrsoc; 1; ('van', 'on', 'road'); car
+avrxxx; bus; [89, 681, 57, 636]; near; car; [398, 482, 678, 828]
+avrxxx; car; [398, 482, 678, 828]; on the right of; bus; [89, 681, 57, 636]
+avrxxx; bike; [424, 553, 16, 72]; lean on; post; [1, 586, 2, 80]
+avrxxx; bike; [424, 553, 16, 72]; touch; post; [1, 586, 2, 80]
+avrxxx; bike; [424, 553, 16, 72]; next to; bus; [89, 681, 57, 636]
+
+imname; 536158324_77c119d759_b.jpg
+cvrsbb; 0; ('person', 'wear', 'shirt'); [364, 852, 156, 329]
+cvrsbb; 1; ('person', 'wear', 'helmet'); [364, 852, 156, 329]
+cvrsbb; 2; ('person', 'stand on', 'street'); [364, 852, 156, 329]
+cvrooc; 2; ('person', 'stand on', 'street'); sand
+cvrsbb; 3; ('person', 'wear', 'shoes'); [364, 852, 156, 329]
+cvrobb; 3; ('person', 'wear', 'shoes'); [801, 852, 184, 325]
+cvrsbb; 4; ('person', 'on', 'street'); [364, 852, 156, 329]
+cvrooc; 4; ('person', 'on', 'street'); sand
+cvrsbb; 6; ('person', 'has', 'hat'); [248, 387, 69, 148]
+cvrobb; 6; ('person', 'has', 'hat'); [247, 263, 98, 128]
+cvrsbb; 7; ('person', 'wear', 'tie'); [248, 387, 69, 148]
+cvrpxx; 8; ('shirt', 'inside', 'pants'); above
+cvrsbb; 9; ('person', 'near', 'trash can'); [380, 524, 333, 384]
+cvrpxx; 9; ('person', 'near', 'trash can'); next to
+rvrxxx; 10; ('person', 'wear', 'sunglasses')
+rvrxxx; 5; ('person', 'on', 'street')
+avrxxx; person; [248, 387, 69, 148]; behind; person; [364, 852, 156, 329]
+avrxxx; trash can; [347, 511, 257, 361]; taller than; person; [380, 524, 333, 384]
+
+imname; 4347518965_17a6a8e2e9_b.jpg
+cvrpxx; 0; ('car', 'on the left of', 'person'); behind
+rvrxxx; 2; ('traffic light', 'over', 'street')
+avrxxx; car; [289, 302, 430, 460]; on; street; [284, 680, 4, 1021]
+avrxxx; person; [264, 528, 114, 245]; on; skis; [508, 568, 125, 276]
+avrxxx; person; [264, 528, 114, 245]; has; skis; [508, 568, 125, 276]
+avrxxx; person; [264, 528, 114, 245]; wear; skis; [508, 568, 125, 276]
+avrxxx; skis; [508, 568, 125, 276]; under; person; [264, 528, 114, 245]
+avrxxx; person; [264, 528, 114, 245]; in; street; [284, 680, 4, 1021]
+avrxxx; person; [264, 528, 114, 245]; wear; jacket; [299, 404, 114, 237]
+avrxxx; jacket; [299, 404, 114, 237]; on; person; [264, 528, 114, 245]
+avrxxx; jacket; [299, 404, 114, 237]; above; skis; [508, 568, 125, 276]
+avrxxx; skis; [508, 568, 125, 276]; on; street; [284, 680, 4, 1021]
+avrxxx; person; [264, 528, 114, 245]; on the left of; tree; [1, 366, 758, 1023]
+avrxxx; tree; [1, 366, 758, 1023]; on the right of; person; [264, 528, 114, 245]
+avrxxx; person; [264, 528, 114, 245]; in front of; person; [289, 320, 370, 387]
+avrxxx; person; [289, 320, 370, 387]; behind; person; [264, 528, 114, 245]
+avrxxx; car; [275, 322, 675, 762]; on; street; [284, 680, 4, 1021]
+
+imname; 4435536063_77d6d2136e_o.jpg
+cvrsbb; 0; ('person', 'wear', 'shirt'); [247, 683, 350, 612]
+cvrsbb; 1; ('person', 'wear', 'shorts'); [247, 683, 350, 612]
+cvrobb; 1; ('person', 'wear', 'shorts'); [446, 552, 472, 595]
+cvrsbb; 2; ('person', 'wear', 'shoes'); [247, 683, 350, 612]
+cvrobb; 3; ('hat', 'on', 'person'); [33, 271, 670, 784]
+cvrsbb; 4; ('person', 'near', 'person'); [33, 271, 670, 784]
+cvrobb; 4; ('person', 'near', 'person'); [247, 683, 350, 612]
+avrxxx; person; [33, 271, 670, 784]; wear; hat; [29, 79, 698, 750]
+avrxxx; person; [33, 271, 670, 784]; has; hat; [29, 79, 698, 750]
+avrxxx; shirt; [317, 464, 427, 575]; above; shoes; [609, 691, 437, 622]
+avrxxx; shirt; [317, 464, 427, 575]; above; shorts; [446, 552, 472, 595]
+avrxxx; shorts; [446, 552, 472, 595]; below; shirt; [317, 464, 427, 575]
+
+imname; 8059265370_6843fc7ba4_b.jpg
+cvrsbb; 0; ('airplane', 'has', 'wheel'); [329, 518, 238, 940]
+cvrobb; 0; ('airplane', 'has', 'wheel'); [503, 520, 527, 543]
+cvrsbb; 1; ('airplane', 'on', 'street'); [329, 518, 238, 940]
+cvrobb; 2; ('engine', 'next to', 'airplane'); [329, 518, 238, 940]
+cvrpxx; 2; ('engine', 'next to', 'airplane'); attached to
+cvrsbb; 3; ('wheel', 'below', 'airplane'); [503, 520, 527, 543]
+cvrobb; 3; ('wheel', 'below', 'airplane'); [329, 518, 238, 940]
+cvrpxx; 3; ('wheel', 'below', 'airplane'); attached to
+avrxxx; airplane; [329, 518, 238, 940]; has; engine; [462, 507, 421, 513]
+avrxxx; street; [487, 679, 1, 1022]; under; airplane; [329, 518, 238, 940]
+avrxxx; wheel; [503, 520, 527, 543]; on; street; [487, 679, 1, 1022]
+
+imname; 3367477595_9993f46b38_b.jpg
+cvrobb; 2; ('motorcycle', 'on', 'road'); [433, 1023, 1, 705]
+cvrobb; 4; ('motorcycle', 'on', 'road'); [433, 1023, 1, 705]
+cvrsbb; 6; ('road', 'under', 'car'); [433, 1023, 1, 705]
+cvrobb; 7; ('car', 'on', 'road'); [433, 1023, 1, 705]
+cvrsoc; 8; ('glasses', 'next to', 'glasses'); drinking glass
+cvrooc; 8; ('drinking glass', 'next to', 'glasses'); drinking glass
+avrxxx; hydrant; [459, 500, 19, 48]; on; street; [433, 1023, 1, 705]
+avrxxx; street; [433, 1023, 1, 705]; has; hydrant; [459, 500, 19, 48]
+
+imname; 2343988204_1c0b96434d_b.jpg
+cvrobb; 3; ('bag', 'under', 'desk'); [415, 665, 131, 259]
+cvrooc; 3; ('bag', 'under', 'desk'); chair
+avrxxx; chair; [441, 711, 457, 618]; next to; person; [148, 766, 596, 815]
+avrxxx; person; [148, 766, 596, 815]; beside; chair; [441, 711, 457, 618]
+avrxxx; chair; [441, 711, 457, 618]; has; jacket; [437, 583, 454, 611]
+avrxxx; jacket; [437, 583, 454, 611]; on; chair; [441, 711, 457, 618]
+
+
+
+### Start of images with index 201 to 300 ###
+
+
+imname; 4847012655_42e6263cfd_b.jpg
+cvrsbb; 8; ('traffic light', 'behind', 'umbrella'); [66, 223, 308, 374]
+cvrobb; 15; ('person', 'wear', 'watch'); [582, 610, 301, 318]
+cvrsbb; 16; ('hat', 'on', 'person'); [426, 453, 37, 89]
+cvrobb; 16; ('hat', 'on', 'person'); [426, 559, 38, 102]
+
+imname; 136745115_88a3f6e05c_b.jpg
+avrxxx; box; [179, 348, 403, 688]; on; box; [182, 463, 401, 676]
+avrxxx; box; [179, 348, 403, 688]; on top of; box; [182, 463, 401, 676]
+avrxxx; box; [182, 463, 401, 676]; below; box; [179, 348, 403, 688]
+
+imname; 145671186_e44c79795e_o.jpg
+avrxxx; teddy bear; [99, 971, 213, 708]; has; shirt; [269, 417, 638, 603]
+avrxxx; teddy bear; [99, 971, 213, 708]; wear; shirt; [269, 417, 638, 603]
+avrxxx; teddy bear; [99, 971, 213, 708]; with; shirt; [269, 417, 638, 603]
+avrxxx; shirt; [269, 417, 638, 603]; on; teddy bear; [99, 971, 213, 708]
+avrxxx; shirt; [269, 417, 638, 603]; with; teddy bear; [99, 971, 213, 708]
+
+imname; 4814875474_6ae1c9a381_b.jpg
+cvrsbb; 0 ('faucet', 'above', 'sink'); [281, 356, 868, 949]
+cvrobb; 0 ('faucet', 'above', 'sink'); [390, 517, 785, 956]
+cvrsbb; 3; ('bowl', 'on', 'counter'); [390, 517, 785, 956]
+cvrsoc; 3; ('bowl', 'on', 'counter'); sink
+rvrxxx; 4; ('bowl', 'below', 'faucet')
+rvrxxx; 1; ('faucet', 'above', 'bowl')
+avrxxx; faucet; [281, 356, 868, 949]; over; sink; [390, 517, 785, 956]
+avrxxx; sink; [390, 517, 785, 956]; below; faucet; [281, 356, 868, 949]
+avrxxx; shelf; [132, 138, 518, 600]; has; cup; [103, 139, 545, 571]
+
+imname; 7574977682_b8819ffe13_b.jpg
+rvrxxx; 7; ('bike', 'has', 'wheel')
+rvrxxx; 3; ('motorcycle', 'with', 'engine')
+rvrxxx; 1; ('motorcycle', 'has', 'engine')
+avrxxx; motorcycle; [32, 673, 84, 921]; has; helmet case; [48, 155, 91, 294]
+avrxxx; helmet case; [48, 155, 91, 294]; on; motorcycle; [32, 673, 84, 921]
+avrxxx; helmet case; [48, 155, 91, 294]; attached to; motorcycle; [32, 673, 84, 921]
+
+imname; 4500881088_1ab8bb68f3_o.jpg
+cvrooc; 1; ('train', 'near', 'roof'); canopy
+cvrsoc; 2; ('roof', 'above', 'train'); canopy;
+cvrpxx; 2; ('canopy', 'above', 'train'); next to
+avrxxx; train; []; beside; cart; []
+avrxxx; cart; []; next to; train; []
+avrxxx; canopy; []; next to; train; []
+
+imname; 8411967018_4e1fd23e8b_b.jpg
+cvrsoc; 7; ('person', 'on', 'desk'); speaker
+
+imname; 10085008474_8d72a9dc5e_b.jpg
+cvrsbb; 0; ('bench', 'near', 'trees'); [458, 515, 968, 1023]
+avrxxx; trees; [6, 464, 206, 1019]; next to; bench; [458, 515, 968, 1023]
+avrxxx; train; [302, 584, 248, 779]; has; train engine; [302, 584, 440, 779]
+avrxxx; train; [302, 584, 248, 779]; beside; trees; [6, 464, 206, 1019]
+avrxxx; trees; [6, 464, 206, 1019]; beside; train; [302, 584, 248, 779]
+avrxxx; train engine; [302, 584, 440, 779]; attached to; train; [302, 584, 248, 779]
+avrxxx; train engine; [302, 584, 440, 779]; pull; train; [302, 584, 248, 779]
+avrxxx; bench; [458, 515, 968, 1023]; by; train; [302, 584, 248, 779]
+avrxxx; train engine; [302, 584, 440, 779]; near; bench; [458, 515, 968, 1023]
+
+imname; 6206106665_4baf156e08_b.jpg
+cvrooc; 1; ('person', 'next to', 'stove'); stove top
+avrxxx; counter; [320, 508, 1, 874]; has; stove top; [396, 470, 556, 836]
+avrxxx; stove top; [396, 470, 556, 836]; next to; person; [5, 680, 823, 1023]
+avrxxx; stove top; [396, 470, 556, 836]; beside; can; [335, 406, 461, 505]
+avrxxx; stove top; [396, 470, 556, 836]; to the right of; can; [335, 406, 461, 505]
+avrxxx; can; [335, 406, 461, 505]; to the left of; stove top; [396, 470, 556, 836]
+
+imname; 4260566643_0d6568fa27_b.jpg
+cvrpxx; 17; ('umbrella', 'under', 'trees'); next to
+
+imname; 5843016079_70bc3982a9_b.jpg
+cvrobb; 0; ('person', 'next to', 'tree'); [342, 422, 172, 273]
+cvrsbb; 1; ('person', 'in', 'shorts'); [490, 591, 173, 200]
+cvrobb; 1; ('person', 'in', 'shorts'); [530, 546, 176, 200]
+cvrsbb; 2; ('person', 'hold', 'umbrella'); [490, 591, 173, 200]
+cvrsbb; 4; ('bush', 'near', 'bush'); [375, 407, 717, 768]
+cvrobb; 4; ('bush', 'near', 'bush'); [404, 433, 787, 827]
+cvrsbb; 5; ('bush', 'under', 'grass'); [375, 407, 717, 768]
+cvrpxx; 5; ('bush', 'under', 'grass'); on
+cvrsbb; 6; ('person', 'under', 'umbrella'); [490, 591, 173, 200]
+cvrsbb; 7; ('person', 'has', 'hat'); [476, 572, 623, 676]
+cvrobb; 7; ('person', 'has', 'hat'); [476, 486, 641, 661]
+
+imname; 434559923_aa5e4a7f33_b.jpg
+cvrsbb; 4; ('sky', 'over', 'mountain'); [1, 409, 1, 1023]
+cvrobb; 4; ('sky', 'over', 'mountain'); [399, 434, 1, 955]
+rvrxxx; 3; ('traffic light', 'above', 'car')
+rvrxxx; 1; ('car', 'behind', 'van')
+avrxxx; traffic light; [360, 392, 669, 685]; above; street; [508, 764, 1, 1022]
+avrxxx; traffic light; [360, 392, 669, 685]; beside; traffic light; [370, 404, 747, 766]
+avrxxx; street; [508, 764, 1, 1022]; under; traffic light; [370, 404, 747, 766]
+avrxxx; sky; [1, 409, 1, 1023]; over; street; [508, 764, 1, 1022]
+avrxxx; sky; [1, 409, 1, 1023]; over; car; [481, 534, 185, 302]
+avrxxx; traffic light; [360, 392, 669, 685]; adjacent to; traffic light; [370, 404, 747, 766]
+avrxxx; car; [481, 534, 185, 302]; under; sky; [1, 409, 1, 1023]
+
+imname; 9197562707_dcc7874208_b.jpg
+cvrobb; 3; ('counter', 'above', 'oven'); [427, 576, 284, 436]
+avrxxx; oven; [427, 576, 284, 436]; below; counter; [394, 816, 155, 1023]
+avrxxx; sink; [431, 486, 606, 924]; in; counter; [394, 816, 155, 1023]
+avrxxx; counter; [394, 816, 155, 1023]; has; sink; [431, 486, 606, 924]
+avrxxx; faucet; [254, 488, 784, 1023]; attached to; counter; [394, 816, 155, 1023]
+
+imname; 2820743071_dae064f6e7_o.jpg
+cvrobb; 5; ('sky', 'above', 'person'); [201, 370, 371, 428]
+cvrobb; 6; ('person', 'hold', 'umbrella'); [189, 222, 382, 465]
+cvrsbb; 10; ('umbrella', 'over', 'person'); [189, 222, 382, 465]
+cvrobb; 10; ('umbrella', 'over', 'person'); [201, 370, 371, 428]
+cvrsbb; 17; ('person', 'beneath', 'umbrella'); [201, 370, 371, 428]
+cvrobb; 17; ('person', 'beneath', 'umbrella'); [189, 222, 382, 465]
+cvrsbb; 18; ('umbrella', 'cover', 'person'); [189, 222, 382, 465]
+cvrobb; 18; ('umbrella', 'cover', 'person'); [201, 370, 371, 428]
+rvrxxx; 16; ('person', 'hold', 'umbrella')
+rvrxxx; 12; ('umbrella', 'cover', 'person')
+rvrxxx; 11; ('umbrella', 'cover', 'person')
+
+imname; 5691605489_f37720bca0_b.jpg
+cvrsbb; 0; ('person', 'near', 'person'); [526, 916, 318, 468]
+cvrsbb; 1; ('person', 'wear', 'hat'); [526, 916, 318, 468]
+cvrsbb; 2; ('person', 'wear', 'sunglasses'); [526, 916, 318, 468]
+cvrsbb; 3; ('person', 'wear', 'jacket'); [526, 916, 318, 468]
+cvrobb; 3; ('person', 'wear', 'jacket'); [582, 725, 320, 467]
+cvrobb; 6; ('person', 'hold', 'skis'); [645, 919, 265, 298]
+cvrobb; 7; ('person', 'wear', 'sunglasses'); [620, 633, 234, 268]
+cvrobb; 10; ('sky', 'above', 'person'); [526, 916, 318, 468] 
+cvrobb; 11; ('hat', 'on top of', 'person'); [526, 916, 318, 468]
+cvrobb; 13; ('mountain', 'behind', 'person'); [526, 916, 318, 468]
+cvrsbb; 14; ('person', 'next to', 'person'); [593, 912, 211, 313]
+cvrobb; 14; ('person', 'next to', 'person'); [526, 916, 318, 468]
+cvrsbb; 15; ('person', 'wear', 'hat'); [593, 912, 211, 313]
+cvrobb; 15; ('person', 'wear', 'hat'); [598, 623, 223, 265]
+cvrpxx; 15; ('person', 'wear', 'hat'); has
+cvrsbb; 16; ('jacket', 'on', 'person'); [582, 725, 320, 467]
+cvrobb; 16; ('jacket', 'on', 'person'); [526, 916, 318, 468]
+rvrxxx; 5; ('person', 'wear', 'hat')
+rvrxxx; 4; ('person', 'wear', 'sunglasses')
+
+imname; 10003466765_d20a7655c6_b.jpg
+cvrpxx; 2; ('person', 'hold', 'bed'); lean on
+avrxxx; person; [440, 767, 660, 1020] touch; bed; [265, 762, 482, 891]
+avrxxx; person; [440, 767, 660, 1020]; hold; camera; [533, 582, 715, 828]
+avrxxx; person; [440, 767, 660, 1020]; has; camera; [533, 582, 715, 828]
+
+imname; 3794327665_f915a241d3_b.jpg
+avrxxx; person; [192, 560, 514, 758]; sit on; bench; [351, 587, 6, 1016]
+avrxxx; person; [209, 513, 1, 194]; sit on; bench; [351, 587, 6, 1016]
+
+imname; 2971251148_d241e54ae2_b.jpg
+cvrobb; 1; ('mountain', 'under', 'sky'); [1, 261, 1, 1023]
+avrxxx; building; [340, 462, 23, 367]; has; roof; [346, 365, 42, 311]
+avrxxx; roof; [346, 365, 42, 311]; attached to; building; [340, 462, 23, 367]
+avrxxx; boat; [356, 513, 306, 966]; next to; building; [340, 462, 23, 367]
+avrxxx; airplane; [501, 574, 329, 529]; beside; boat; [356, 513, 306, 966]
+avrxxx; boat; [356, 513, 306, 966]; near; airplane; [501, 574, 329, 529]
+avrxxx; sky; [1, 261, 1, 1023]; over; boat; [356, 513, 306, 966]
+avrxxx; sky; [1, 261, 1, 1023]; over; airplane; [501, 574, 329, 529]
+avrxxx; sky; [1, 261, 1, 1023]; over; mountain; [241, 334, 1, 715]
+avrxxx; sky; [1, 261, 1, 1023]; above; building; [340, 462, 23, 367]
+
+imname; 8235747174_fbac6d29a0_o.jpg
+avrxxx; bike; [232, 374, 409, 516]; in front of; bus; [71, 409, 1, 430]
+avrxxx; bus; [71, 409, 1, 430]; carry; bike; [232, 374, 409, 516]
+
+imname; 8467014282_b03276960c_b.jpg
+cvrobb; 3; ('person', 'wear', 'shoes'); [281, 307, 388, 457]
+avrxxx; person; [1, 280, 100, 273]; sit on; motorcycle; [1, 267, 2, 396]
+avrxxx; person; [1, 193, 596, 787]; stand behind; motorcycle; [85, 682, 11, 916]
+avrxxx; person; [1, 193, 596, 787]; behind; motorcycle; [85, 682, 11, 916]
+
+imname; 8389510436_bcc1c1c21c_b.jpg
+avrxxx; person; [3, 321, 117, 315]; carry; bag; [85, 220, 124, 196]
+avrxxx; person; [3, 321, 117, 315]; has; bag; [85, 220, 124, 196]
+avrxxx; person; [3, 321, 117, 315]; with; bag; [85, 220, 124, 196]
+avrxxx; bag; [85, 220, 124, 196]; with; person; [3, 321, 117, 315]
+
+imname; 3976112836_6f6e418a30_o.jpg
+cvrsbb; 0; ('sink', 'has', 'faucet'); [477, 569, 316, 520]
+cvrobb; 1; ('faucet', 'on', 'sink'); [477, 569, 316, 520]
+avrxxx; bag; [435, 478, 637, 707]; on; bed; [452, 563, 475, 781]
+avrxxx; bed; [452, 563, 475, 781]; under; bag; [435, 478, 637, 707]
+avrxxx; bed; [452, 563, 475, 781]; near; sink; [477, 569, 316, 520]
+avrxxx; sink; [477, 569, 316, 520]; near; bed; [452, 563, 475, 781]
+
+imname; 139185650_464f5f6837_b.jpg
+cvrsbb; 10; ('car', 'behind', 'car'); [573, 654, 31, 172]
+cvrobb; 10; ('car', 'behind', 'car'); [581, 694, 1, 75]
+
+imname; 9122771560_21d97d3513_b.jpg
+avrxxx; bus; [41, 743, 179, 925]; beside; bus; [146, 628, 696, 1022]
+avrxxx; bus; [41, 743, 179, 925]; adjacent to; bus; [146, 628, 696, 1022]
+avrxxx; bus; [41, 743, 179, 925]; beside; bus; [163, 587, 2, 170]
+avrxxx; bus; [41, 743, 179, 925]; has; license plate; [646, 716, 782, 882]
+avrxxx; license plate; [646, 716, 782, 882]; attached to; bus; [41, 743, 179, 925]
+
+imname; 6463419153_6eeb8969f2_b.jpg
+avrxxx; traffic light; [425, 505, 709, 753]; above; person; [568, 665, 701, 744]
+avrxxx; sky; [2, 565, 1, 1023]; above; car; [576, 688, 148, 327]
+avrxxx; sky; [2, 565, 1, 1023]; over; car; [576, 688, 148, 327]
+avrxxx; car; [576, 688, 148, 327]; on the left of; person; [568, 665, 701, 744]
+avrxxx; person; [568, 665, 701, 744]; on the right of; car; [576, 688, 148, 327]
+
+imname; 8009543402_715ca6be10_o.jpg
+cvrsoc; 0; ('table', 'near', 'person'); counter
+cvrsoc; 1; ('table', 'near', 'person'); counter
+cvrooc; 4; ('person', 'behind', 'table'); counter
+cvrooc; 7; ('person', 'lean on', 'table'); counter
+
+imname; 2940172970_3f0d3a4a65_b.jpg
+cvrooc; 1; ('bottle', 'on top of', 'table'); counter
+rvrxxx; 0; ('person', 'has', 'oven')
+
+imname; 425517965_8e762fb24f_b.jpg
+cvrobb; 14; ('hat', 'on', 'person'); [257, 766, 550, 812]
+cvrsbb; 17; ('person', 'wear', 'hat'); [118, 767, 22, 307]
+cvrsbb; 18; ('person', 'wear', 'hat'); [257, 766, 550, 812]
+cvrsbb; 19; ('person', 'wear', 'jacket'); [257, 766, 550, 812]
+cvrobb; 19; ('person', 'wear', 'jacket'); [362, 746, 552, 803]
+cvrsbb; 20; ('person', 'stand next to', 'person'); [257, 766, 550, 812]
+cvrsbb; 21; ('jacket', 'on', 'person'); [362, 746, 552, 803]
+cvrobb; 21; ('jacket', 'on', 'person'); [257, 766, 550, 812]
+
+imname; 8739300387_420b1fc36a_b.jpg
+avrxxx; sky; [14, 276, 8, 914]; over; train; [208, 464, 463, 948]
+avrxxx; sky; [14, 276, 8, 914]; over; tree; [50, 236, 388, 651]
+avrxxx; tree; [50, 236, 388, 651]; next to; train; [208, 464, 463, 948]
+avrxxx; train; [208, 464, 463, 948]; beside; tree; [50, 236, 388, 651]
+
+imname; 6820244984_933c261abd_b.jpg
+cvrsoc; 4; ('pot', 'on', 'stove'); cooking pot
+cvrsoc; 5; ('pot', 'on', 'stove'); cooking pot
+avrxxx; cooking pot; [699, 780, 114, 287]; beside; cooking pot; [650, 748, 202, 313]
+avrxxx; cooking pot; [650, 748, 202, 313]; next to; cooking pot; [699, 780, 114, 287]
+avrxxx; cooking pot; [699, 780, 114, 287]; near; person; [458, 1019, 412, 679]
+avrxxx; person; [458, 1019, 412, 679]; near; cooking pot; [699, 780, 114, 287]
+
+imname; 8637598576_8225be0304_b.jpg
+avrxxx; hand; [94, 200, 477, 542]; has; phone; [84, 165, 494, 533]
+avrxxx; hand; [94, 200, 477, 542]; hold; phone; [84, 165, 494, 533]
+avrxxx; person; [93, 556, 478, 668]; hold; phone; [84, 165, 494, 533]
+avrxxx; phone; [84, 165, 494, 533]; with; person; [93, 556, 478, 668]
+avrxxx; person; [93, 556, 478, 668]; has; hand; [94, 200, 477, 542]
+
+imname; 7907184186_2835d10d61_o.jpg
+cvrpxx; 0; ('person', 'across', 'street'); walk on
+cvrobb; 2; ('person', 'across', 'road'); [134, 477, 2, 639]
+cvrpxx; 2; ('person', 'across', 'road'); stand on
+
+imname; 362154704_40edaae16c_b.jpg
+avrxxx; giraffe; [1, 719, 168, 767]; eat; tree; [1, 178, 633, 848]
+avrxxx; giraffe; [1, 719, 168, 767]; touch; tree; [1, 178, 633, 848]
+avrxxx; tree; [1, 178, 633, 848]; next to; giraffe; [1, 719, 168, 767]
+avrxxx; tree; [1, 178, 633, 848]; by; giraffe; [1, 719, 168, 767]
+
+imname; 5465443054_1def817670_b.jpg
+cvrooc; 0; ('laptop', 'on', 'table'); desk
+cvrooc; 1; ('laptop', 'on top of', 'table'); desk
+cvrsoc; 2; ('table', 'has', 'laptop'); desk
+cvrsoc; 3; ('table', 'next to', 'chair'); desk
+cvrooc; 4; ('mouse', 'on', 'table'); desk
+rvrxxx; 6; ('keyboard', 'in', 'laptop')
+avrxxx; chair; [380, 681, 3, 426]; at; desk; [164, 668, 39, 795]
+avrxxx; chair; [380, 681, 3, 426]; by; laptop; [181, 440, 260, 500]
+
+imname; 3920514049_a20cfebd62_b.jpg
+cvrsbb; 0; ('counter', 'next to', 'sink'); [259, 422, 1, 642]
+cvrpxx; 0; ('counter', 'next to', 'sink'); has
+avrxxx; faucet; [171, 271, 74, 129]; above; sink; [249, 300, 2, 149]
+avrxxx; faucet; [171, 271, 74, 129]; with; sink; [249, 300, 2, 149]
+avrxxx; shelf; [54, 74, 48, 168]; above; faucet; [171, 271, 74, 129]
+avrxxx; sink; [249, 300, 2, 149]; below; shelf; [54, 74, 48, 168]
+avrxxx; bowl; [250, 315, 382, 480]; on; counter; [259, 422, 1, 642]
+avrxxx; counter; [259, 422, 1, 642]; under; bowl; [250, 315, 382, 480]
+avrxxx; bowl; [250, 315, 382, 480]; to the right of; sink; [249, 300, 2, 149]
+
+imname; 4454351244_9bef41c9fe_o.jpg
+cvrobb; 1; ('car', 'on', 'street'); [261, 959, 1, 1279]
+cvrobb; 2; ('hydrant', 'on', 'street'); [261, 959, 1, 1279]
+cvrsbb; 3; ('street', 'under', 'car'); [261, 959, 1, 1279]
+cvrsbb; 4; ('street', 'under', 'hydrant'); [261, 959, 1, 1279]
+
+imname; 8398006242_5d79227fec_b.jpg
+cvrpxx; 1; ('bus', 'next to', 'street'); on
+cvrooc; 3; ('building', 'has', 'truck'); van
+cvrsoc; 4; ('truck', 'behind', 'bus'); van
+avrxxx; van; [446, 508, 101, 199]; inside; building; [72, 559, 38, 1023]
+avrxxx; building; [72, 559, 38, 1023]; contain; van; [446, 508, 101, 199]
+
+imname; 3345907813_21b6a8ff71_b.jpg
+cvrpxx; 0; ('street', 'below', 'building'); next to
+avrxxx; post; [1, 517, 252, 280]; in; street; [374, 640, 11, 1022]
+avrxxx; traffic light; [102, 277, 180, 261]; attached to; post; [1, 517, 252, 280]
+avrxxx; post; [1, 517, 252, 280]; has; traffic light; [102, 277, 180, 261]
+avrxxx; traffic light; [102, 277, 180, 261]; above; street; [374, 640, 11, 1022]
+avrxxx; street; [374, 640, 11, 1022]; below; traffic light; [102, 277, 180, 261]
+
+imname; 8591015478_8242d34d3b_b.jpg
+cvrooc; 2; ('person', 'wear', 'glasses'); sunglasses
+
+imname; 3849606438_ec488ff23e_b.jpg
+cvrobb; 10; ('bag', 'on', 'street'); [248, 681, 7, 1020]
+avrxxx; person; [65, 346, 365, 516]; ride; skateboard; [276, 341, 389, 471]
+avrxxx; skateboard; [276, 341, 389, 471]; on; ramp; [341, 399, 313, 496]
+avrxxx; ramp; [341, 399, 313, 496]; on; street; [248, 681, 7, 1020]
+avrxxx; ramp; [341, 399, 313, 496]; under; skateboard; [276, 341, 389, 471]
+
+imname; 9626687493_e3fd19706a_b.jpg
+cvrpxx; 4; ('person', 'wear', 'shorts'); has
+rvrxxx; 7 ('person', 'wear', 'pants')
+
+imname; 6872898747_c7b540e84c_b.jpg
+avrxxx; monitor; [481, 576, 549, 652]; on; counter; [578, 613, 489, 684]
+avrxxx; counter; [578, 613, 489, 684]; under; monitor; [481, 576, 549, 652]
+avrxxx; cabinet; [200, 467, 556, 684]; above; monitor; [481, 576, 549, 652]
+avrxxx; monitor; [481, 576, 549, 652]; below; cabinet; [200, 467, 556, 684]
+avrxxx; cabinet; [193, 456, 35, 240]; on the left of; cabinet; [200, 467, 556, 684]
+avrxxx; vase; [128, 195, 56, 95]; on top of; cabinet; [193, 456, 35, 240]
+avrxxx; cabinet; [193, 456, 35, 240]; under; vase; [128, 195, 56, 95]
+
+imname; 2247097262_1fe9a59d8a_b.jpg
+cvrsoc; 5; ('person', 'on', 'desk'); speaker
+cvrsoc; 6; ('person', 'on', 'desk'); speaker
+
+imname; 311802141_0e36251eb2_o.jpg
+cvrsoc; 4; ('bear', 'behind', 'cup'); teddy bear
+cvrpxx; 4; ('teddy bear', 'behind', 'cup'); in
+avrxxx; cup; [204, 257, 519, 597]; contain; teddy bear; [90, 213, 502, 597]
+avrxxx; teddy bear; [241, 485, 96, 294]; sit on; chair; [179, 798, 34, 485]
+avrxxx; chair; [179, 798, 34, 485]; has; teddy bear; [241, 485, 96, 294]
+avrxxx; teddy bear; [241, 485, 96, 294]; wear; shirt; [381, 435, 142, 295]
+avrxxx; teddy bear; [241, 485, 96, 294]; has; shirt; [381, 435, 142, 295]
+avrxxx; shirt; [381, 435, 142, 295]; on; teddy bear; [241, 485, 96, 294]
+avrxxx; teddy bear; [241, 485, 96, 294]; near; teddy bear; [90, 213, 502, 597]
+avrxxx; teddy bear; [90, 213, 502, 597]; above; teddy bear; [241, 485, 96, 294] 
+
+imname; 3766609982_7008d5084f_b.jpg
+cvrooc; 0; ('laptop', 'near', 'person'); speaker
+cvrsoc; 1; ('person', 'behind', 'monitor'); speaker
+cvrpxx; 1; ('speaker', 'behind', 'monitor'); below
+cvrsoc; 2; ('person', 'on', 'desk'); speaker
+cvrsoc; 3; ('person', 'near', 'laptop'); speaker
+
+imname; 3340263766_18980e1d37_b.jpg
+cvrpxx; 0; ('chair', 'next to', 'monitor'); near
+
+imname; 3038755837_69e4a5571d_b.jpg
+cvrooc; 2; ('person', 'wear', 'shoes'); shoe
+
+imname; 4150090398_6a7d30fb0a_b.jpg
+cvrobb; 1; ('laptop', 'below', 'sky'); [1, 429, 1, 767]
+cvrobb; 5; ('table', 'in front of', 'sky'); [1, 429, 1, 767]
+cvrsbb; 7; ('sky', 'above', 'laptop'); [1, 429, 1, 767]
+rvrxxx; 2; ('laptop', 'below', 'sky')
+
+imname; 7315412790_53e93071c9_b.jpg
+cvrooc; 1; ('person', 'has', 'pants'); jeans
+cvrsoc; 4; ('pants', 'on', 'person'); jeans
+
+imname; 8552444388_31d4f9fac8_b.jpg
+rvrxxx; 3; ('skis', 'beneath', 'sky')
+
+imname; 2709242719_468bf83e9f_b.jpg
+cvrobb; 1; ('person', 'wear', 'watch'); [367, 403, 448, 484]
+cvrsbb; 5; ('person', 'wear', 'watch'); [304, 322, 84, 96]
+cvrpxx; 6; ('person', 'behind', 'oven'); beside
+avrxxx; person; [209, 723, 436, 765]; next to; oven; [213, 595, 178, 524]
+avrxxx; person; [209, 723, 436, 765]; touch; oven; [213, 595, 178, 524]
+avrxxx; person; [161, 566, 7, 166]; carry; bag; [314, 407, 15, 77]
+
+imname; 9216468529_18be5eb8e1_b.jpg
+rvrxxx; 5; ('street', 'near', 'street')
+rvrxxx; 2; ('street', 'under', 'street')
+
+imname; 9780007196_1335656452_b.jpg
+cvrpxx; 7; ('watch', 'on', 'table'); on top of
+cvrpxx; 8; ('person', 'on', 'chair'); sit on
+cvrpxx; 9; ('bottle', 'on', 'table'); on top of
+cvrpxx; 10; ('box', 'under', 'table'); beneath
+
+imname; 6442967833_fba9355477_b.jpg
+cvrobb; 0; ('person', 'on', 'surfboard'); [545, 590, 419, 630]
+cvrsoc; 1; ('building', 'near', 'building'); tower
+cvrooc; 2; ('sky', 'above', 'building'); tower
+cvrobb; 4; ('sky', 'above', 'surfboard'); [545, 590, 419, 630]
+avrxxx; person; 371, 554, 502, 655 ride; surfboard; [545, 590, 419, 630]
+avrxxx; person; [371, 554, 502, 655]; stand on; surfboard; [545, 590, 419, 630]
+avrxxx; tower; [47, 191, 239, 302]; beside; building; [158, 188, 292, 388]
+avrxxx; tower; [47, 191, 239, 302]; below; sky; [4, 300, 4, 1019]
+avrxxx; surfboard; [545, 590, 419, 630]; below; sky; [4, 300, 4, 1019]
+avrxxx; building; [158, 188, 292, 388]; next to; tower; [47, 191, 239, 302]
+
+imname; 7139423751_5452ba19cd_b.jpg
+cvrpxx; 0; ('sink', 'in', 'cabinet'); above
+avrxxx; cabinet; [518, 767, 457, 905]; below; sink; [427, 530, 430, 880]
+avrxxx; sink; [427, 530, 430, 880]; in; counter; [406, 598, 48, 1023]
+avrxxx; counter; [406, 598, 48, 1023]; has; sink; [427, 530, 430, 880]
+avrxxx; cabinet; [518, 767, 457, 905]; below; counter; [406, 598, 48, 1023]
+avrxxx; faucet; [272, 451, 582, 707]; over; sink; [427, 530, 430, 880]
+avrxxx; faucet; [272, 451, 582, 707]; above; sink; [427, 530, 430, 880]
+avrxxx; sink; [427, 530, 430, 880]; has; faucet; [272, 451, 582, 707]
+avrxxx; counter; [406, 598, 48, 1023]; over; cabinet; [518, 767, 457, 905]
+
+imname; 8559246586_4bd43f9505_b.jpg
+avrxxx; bike; [482, 933, 33, 313]; next to; person; [244, 913, 359, 573]
+avrxxx; bike; [482, 933, 33, 313]; in front of; car; [367, 740, 4, 410]
+avrxxx; helmet; [257, 301, 435, 508]; on; person; [244, 913, 359, 573]
+
+imname; 9253337649_cbc3ff4468_b.jpg
+rvrxxx; 7; ('lamp', 'behind', 'train')
+rvrxxx; 5; ('sky', 'above', 'lamp')
+
+imname; 459904676_67e49725fc_b.jpg
+cvrsbb; 3; ('glasses', 'on', 'person'); [346, 386, 807, 833]
+rvrxxx; 2; ('glasses', 'on', 'counter')
+
+imname; 5946908528_dc6407edfe_b.jpg
+cvrsbb; 1; ('sky', 'above', 'building'); [3, 259, 1, 563]
+cvrobb; 5; ('person', 'wear', 'helmet'); [191, 291, 788, 951]
+cvrobb; 7; ('shirt', 'under', 'helmet'); [191, 291, 788, 951]
+cvrsbb; 9; ('person', 'near', 'person'); [303, 539, 487, 566]
+cvrsbb; 10; ('person', 'near', 'person'); [303, 539, 487, 566]
+cvrobb; 10; ('person', 'near', 'person'); [358, 472, 625, 722]
+cvrsbb; 11; ('person', 'has', 'shirt'); [303, 539, 487, 566]
+cvrsbb; 12; ('person', 'has', 'helmet'); [358, 472, 625, 722]
+cvrobb; 14; ('roof', 'under', 'sky'); [3, 259, 1, 563]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############
+# end of annotation customisation instructions
+##############
+
+
+
+######
+# start - Step 6 - images that will be removed via global trawl
+#                  due to having zero VRs
+######
+
+### Start of images with index 201 to 300 ###
+
+#zero VRs; no viable objects
+#8169707409_06eaa858ed_b.jpg
+
+#zero VRs; only one viable object
+#4992656841_e8f3f51653_b.jpg
+
+
+
+### Start of images with index 101 to 200 ###
+
+#zero VRs; a few viable objects, but an ugly picture; don't want it 
+#35355235_8955a0569b_o.jpg
+
+
+### Start of images with index 000 to 100 ### 
+
+#zero VRs; only 1 viable object (a train) in the image; no chance to make a VR
+#9055930159_9560984041_b.jpg
+
+#zero VRs; only 1 viable object (an umbrella) in the image; no chance to make a VR
+#5866509996_1c95a5c376_b.jpg
+
+#zero VRs; no viable objects in image
+#3988529173_9c88fa79cd_b.jpg
+
+#zero VRs; only 1 viable object in image
+#2393973731_1fe2908280_o.jpg
+
+#zero VRs; only 2 possible objects, both poor choices
+#319629473_aab7f52dc6_b.jpg
+
+
+
+
+
+
+
+
+
+
+######
+# end - Step 6 - images that will be removed via global trawl
+#                due to having zero VRs
+######
+
+
+
+
+
