@@ -7,8 +7,8 @@ Created on Thu Aug 12 11:23:27 2021
 """
 
 '''
-This script explores the behaviour RDFLib when used in conjunction
-with OWLRL reasoning.  In particular, we explore how RDFLIB handles
+This script explores the behaviour of RDFLib when used in conjunction
+with OWLRL reasoning.  In also checks and confirms how RDFLIB handles
 duplicate triples --- ie whether it stores them or discards them.
 '''
 
@@ -39,9 +39,6 @@ print(f'The KG loaded with the ontology TBox has {len(kg)} triples')
 
 
 #%%
-
-class_name = 'Umbrella'
-predicate_name = 'over'
 
 seq_num = 1000
 
@@ -108,7 +105,7 @@ print(f'Loading {len(triples)} data triples into KG ...')
 for triple in triples:
     kg.add(triple)
 
-print(f'With data triples loaded, KG has {len(kg)} triples')
+print(f'After loading data triples, KG has {len(kg)} triples')
 
 #%%
 
