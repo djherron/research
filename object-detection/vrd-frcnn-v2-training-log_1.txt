@@ -1,0 +1,952 @@
+summary training log
+
+
+TRAINING ON HYPERION
+--------------------
+
+annotations file: vrd_dh_annotations_train_trainsubset.json
+batch size: 8
+number of images: 3000
+Number of minibatches per epoch: 375
+
+training 10 epochs takes around 48 - 52 minutes
+
+
+epoch      loss 
+
+epoch   1; avg loss per mb: 8.9156
+epoch   2; avg loss per mb: 3.7411
+epoch   3; avg loss per mb: 3.5599
+epoch   4; avg loss per mb: 3.4383
+epoch   5; avg loss per mb: 3.3212
+epoch   6; avg loss per mb: 3.2122
+epoch   7; avg loss per mb: 3.1003
+epoch   8; avg loss per mb: 2.9968
+epoch   9; avg loss per mb: 2.9005
+epoch  10; avg loss per mb: 2.8195    vrd_frcnn_v2_checkpoint_10.pth
+epoch  11; avg loss per mb: 2.7495
+epoch  12; avg loss per mb: 2.6898
+epoch  13; avg loss per mb: 2.6401
+epoch  14; avg loss per mb: 2.5932
+epoch  15; avg loss per mb: 2.5466
+epoch  16; avg loss per mb: 2.5087
+epoch  17; avg loss per mb: 2.4828
+epoch  18; avg loss per mb: 2.4491
+epoch  19; avg loss per mb: 2.4157
+epoch  20; avg loss per mb: 2.3920    vrd_frcnn_v2_checkpoint_20.pth
+epoch  21; avg loss per mb: 2.3688
+epoch  22; avg loss per mb: 2.3420
+epoch  23; avg loss per mb: 2.3151
+epoch  24; avg loss per mb: 2.2937
+epoch  25; avg loss per mb: 2.2787
+epoch  26; avg loss per mb: 2.2574
+epoch  27; avg loss per mb: 2.2400
+epoch  28; avg loss per mb: 2.2196
+epoch  29; avg loss per mb: 2.2024
+epoch  30; avg loss per mb: 2.1784    vrd_frcnn_v2_checkpoint_30.pth
+epoch  31; avg loss per mb: 2.1685
+epoch  32; avg loss per mb: 2.1500
+epoch  33; avg loss per mb: 2.1338
+epoch  34; avg loss per mb: 2.1132
+epoch  35; avg loss per mb: 2.0990
+epoch  36; avg loss per mb: 2.0801
+epoch  37; avg loss per mb: 2.0642
+epoch  38; avg loss per mb: 2.0488
+epoch  39; avg loss per mb: 2.0317
+epoch  40; avg loss per mb: 2.0164    vrd_frcnn_v2_checkpoint_40.pth
+epoch  41; avg loss per mb: 1.9994
+epoch  42; avg loss per mb: 1.9857
+epoch  43; avg loss per mb: 1.9674
+epoch  44; avg loss per mb: 1.9509
+epoch  45; avg loss per mb: 1.9404
+epoch  46; avg loss per mb: 1.9228
+epoch  47; avg loss per mb: 1.9062
+epoch  48; avg loss per mb: 1.8917
+epoch  49; avg loss per mb: 1.8739
+epoch  50; avg loss per mb: 1.8604    vrd_frcnn_v2_checkpoint_50.pth
+epoch  51; avg loss per mb: 1.8470
+epoch  52; avg loss per mb: 1.8260
+epoch  53; avg loss per mb: 1.8110
+epoch  54; avg loss per mb: 1.7926
+epoch  55; avg loss per mb: 1.7792
+epoch  56; avg loss per mb: 1.7634
+epoch  57; avg loss per mb: 1.7401
+epoch  58; avg loss per mb: 1.7285
+epoch  59; avg loss per mb: 1.7077
+epoch  60; avg loss per mb: 1.6890    vrd_frcnn_v2_checkpoint_60.pth
+epoch  61; avg loss per mb: 1.6739
+epoch  62; avg loss per mb: 1.6561
+epoch  63; avg loss per mb: 1.6380
+epoch  64; avg loss per mb: 1.6278
+epoch  65; avg loss per mb: 1.6084
+epoch  66; avg loss per mb: 1.5985
+epoch  67; avg loss per mb: 1.5712
+epoch  68; avg loss per mb: 1.5530
+epoch  69; avg loss per mb: 1.5400
+epoch  70; avg loss per mb: 1.5226    vrd_frcnn_v2_checkpoint_70.pth
+epoch  71; avg loss per mb: 1.5008
+epoch  72; avg loss per mb: 1.4850
+epoch  73; avg loss per mb: 1.4662
+epoch  74; avg loss per mb: 1.4467
+epoch  75; avg loss per mb: 1.4278
+epoch  76; avg loss per mb: 1.4103
+epoch  77; avg loss per mb: 1.3947
+epoch  78; avg loss per mb: 1.3765
+epoch  79; avg loss per mb: 1.3573
+epoch  80; avg loss per mb: 1.3470    vrd_frcnn_v2_checkpoint_80.pth
+epoch  81; avg loss per mb: 1.3273
+epoch  82; avg loss per mb: 1.3092
+epoch  83; avg loss per mb: 1.2904
+epoch  84; avg loss per mb: 1.2761
+epoch  85; avg loss per mb: 1.2670
+epoch  86; avg loss per mb: 1.2508
+epoch  87; avg loss per mb: 1.2364
+epoch  88; avg loss per mb: 1.2169
+epoch  89; avg loss per mb: 1.2043
+epoch  90; avg loss per mb: 1.1854    vrd_frcnn_v2_checkpoint_90.pth
+epoch  91; avg loss per mb: 1.1746
+epoch  92; avg loss per mb: 1.1622
+epoch  93; avg loss per mb: 1.1543
+epoch  94; avg loss per mb: 1.1437
+epoch  95; avg loss per mb: 1.1286
+epoch  96; avg loss per mb: 1.1179
+epoch  97; avg loss per mb: 1.1048
+epoch  98; avg loss per mb: 1.0948
+epoch  99; avg loss per mb: 1.0838
+epoch 100; avg loss per mb: 1.0747    vrd_frcnn_v2_checkpoint_100.pth    *
+epoch 101; avg loss per mb: 1.0693
+epoch 102; avg loss per mb: 1.0547
+epoch 103; avg loss per mb: 1.0434
+epoch 104; avg loss per mb: 1.0317
+epoch 105; avg loss per mb: 1.0263
+epoch 106; avg loss per mb: 1.0174
+epoch 107; avg loss per mb: 1.0022
+epoch 108; avg loss per mb: 0.9926
+epoch 109; avg loss per mb: 0.9802
+epoch 110; avg loss per mb: 0.9740    vrd_frcnn_v2_checkpoint_110.pth
+epoch 111; avg loss per mb: 0.9640
+epoch 112; avg loss per mb: 0.9541
+epoch 113; avg loss per mb: 0.9422
+epoch 114; avg loss per mb: 0.9347
+epoch 115; avg loss per mb: 0.9244
+epoch 116; avg loss per mb: 0.9194
+epoch 117; avg loss per mb: 0.9053
+epoch 118; avg loss per mb: 0.8947
+epoch 119; avg loss per mb: 0.8869
+epoch 120; avg loss per mb: 0.8760    vrd_frcnn_v2_checkpoint_120.pth
+epoch 121; avg loss per mb: 0.8711
+epoch 122; avg loss per mb: 0.8648
+epoch 123; avg loss per mb: 0.8639
+epoch 124; avg loss per mb: 0.8458
+epoch 125; avg loss per mb: 0.8375
+epoch 126; avg loss per mb: 0.8294
+epoch 127; avg loss per mb: 0.8237
+epoch 128; avg loss per mb: 0.8144
+epoch 129; avg loss per mb: 0.8061
+epoch 130; avg loss per mb: 0.7976    vrd_frcnn_v2_checkpoint_130.pth
+epoch 131; avg loss per mb: 0.7892
+epoch 132; avg loss per mb: 0.7822
+epoch 133; avg loss per mb: 0.7737
+epoch 134; avg loss per mb: 0.7671
+epoch 135; avg loss per mb: 0.7580
+epoch 136; avg loss per mb: 0.7509
+epoch 137; avg loss per mb: 0.7421
+epoch 138; avg loss per mb: 0.7347
+epoch 139; avg loss per mb: 0.7321
+epoch 140; avg loss per mb: 0.7241    vrd_frcnn_v2_checkpoint_140.pth
+epoch 141; avg loss per mb: 0.7173
+epoch 142; avg loss per mb: 0.7079
+epoch 143; avg loss per mb: 0.7010
+epoch 144; avg loss per mb: 0.7005
+epoch 145; avg loss per mb: 0.6926
+epoch 146; avg loss per mb: 0.6781
+epoch 147; avg loss per mb: 0.6731
+epoch 148; avg loss per mb: 0.6665
+epoch 149; avg loss per mb: 0.6665
+epoch 150; avg loss per mb: 0.6565    vrd_frcnn_v2_checkpoint_150.pth    *
+epoch 151; avg loss per mb: 0.6453
+epoch 152; avg loss per mb: 0.6415
+epoch 153; avg loss per mb: 0.6412
+epoch 154; avg loss per mb: 0.6314
+epoch 155; avg loss per mb: 0.6252
+epoch 156; avg loss per mb: 0.6162
+epoch 157; avg loss per mb: 0.6136
+epoch 158; avg loss per mb: 0.6066
+epoch 159; avg loss per mb: 0.5988
+epoch 160; avg loss per mb: 0.5942    vrd_frcnn_v2_checkpoint_160.pth
+epoch 161; avg loss per mb: 0.5868
+epoch 162; avg loss per mb: 0.5820
+epoch 163; avg loss per mb: 0.5766
+epoch 164; avg loss per mb: 0.5691
+epoch 165; avg loss per mb: 0.5662
+epoch 166; avg loss per mb: 0.5587
+epoch 167; avg loss per mb: 0.5530
+epoch 168; avg loss per mb: 0.5500
+epoch 169; avg loss per mb: 0.5420
+epoch 170; avg loss per mb: 0.5404    vrd_frcnn_v2_checkpoint_170.pth
+epoch 171; avg loss per mb: 0.5331
+epoch 172; avg loss per mb: 0.5246
+epoch 173; avg loss per mb: 0.5229
+epoch 174; avg loss per mb: 0.5202
+epoch 175; avg loss per mb: 0.5123
+epoch 176; avg loss per mb: 0.5096
+epoch 177; avg loss per mb: 0.5064
+epoch 178; avg loss per mb: 0.5035
+epoch 179; avg loss per mb: 0.4940
+epoch 180; avg loss per mb: 0.4874    vrd_frcnn_v2_checkpoint_180.pth
+epoch 181; avg loss per mb: 0.4872
+epoch 182; avg loss per mb: 0.4836
+epoch 183; avg loss per mb: 0.4759
+epoch 184; avg loss per mb: 0.4704
+epoch 185; avg loss per mb: 0.4673
+epoch 186; avg loss per mb: 0.4657
+epoch 187; avg loss per mb: 0.4610
+epoch 188; avg loss per mb: 0.4533
+epoch 189; avg loss per mb: 0.4567 *
+epoch 190; avg loss per mb: 0.4507    vrd_frcnn_v2_checkpoint_190.pth
+epoch 191; avg loss per mb: 0.4448
+epoch 192; avg loss per mb: 0.4395
+epoch 193; avg loss per mb: 0.4330
+epoch 194; avg loss per mb: 0.4318
+epoch 195; avg loss per mb: 0.4274
+epoch 196; avg loss per mb: 0.4248
+epoch 197; avg loss per mb: 0.4215
+epoch 198; avg loss per mb: 0.4117
+epoch 199; avg loss per mb: 0.4082
+epoch 200; avg loss per mb: 0.4067    vrd_frcnn_v2_checkpoint_200.pth    *
+epoch 201; avg loss per mb: 0.4060
+epoch 202; avg loss per mb: 0.4040
+epoch 203; avg loss per mb: 0.3956
+epoch 204; avg loss per mb: 0.3939
+epoch 205; avg loss per mb: 0.3888
+epoch 206; avg loss per mb: 0.3864
+epoch 207; avg loss per mb: 0.3797
+epoch 208; avg loss per mb: 0.3797
+epoch 209; avg loss per mb: 0.3741
+epoch 210; avg loss per mb: 0.3717    vrd_frcnn_v2_checkpoint_210.pth
+epoch 211; avg loss per mb: 0.3794
+epoch 212; avg loss per mb: 0.3627
+epoch 213; avg loss per mb: 0.3607
+epoch 214; avg loss per mb: 0.3580
+epoch 215; avg loss per mb: 0.3536
+epoch 216; avg loss per mb: 0.3524
+epoch 217; avg loss per mb: 0.3488
+epoch 218; avg loss per mb: 0.3477
+epoch 219; avg loss per mb: 0.3449
+epoch 220; avg loss per mb: 0.3444    vrd_frcnn_v2_checkpoint_220.pth
+epoch 221; avg loss per mb: 0.3427
+epoch 222; avg loss per mb: 0.3375
+epoch 223; avg loss per mb: 0.3328
+epoch 224; avg loss per mb: 0.3308
+epoch 225; avg loss per mb: 0.3312 *
+epoch 226; avg loss per mb: 0.3248
+epoch 227; avg loss per mb: 0.3227
+epoch 228; avg loss per mb: 0.3243 *
+epoch 229; avg loss per mb: 0.3231
+epoch 230; avg loss per mb: 0.3172    vrd_frcnn_v2_checkpoint_230.pth
+epoch 231; avg loss per mb: 0.3143
+epoch 232; avg loss per mb: 0.3106
+epoch 233; avg loss per mb: 0.3096
+epoch 234; avg loss per mb: 0.3071
+epoch 235; avg loss per mb: 0.3086
+epoch 236; avg loss per mb: 0.3011
+epoch 237; avg loss per mb: 0.3013
+epoch 238; avg loss per mb: 0.2979
+epoch 239; avg loss per mb: 0.2981 *
+epoch 240; avg loss per mb: 0.2958    vrd_frcnn_v2_checkpoint_240.pth
+epoch 241; avg loss per mb: 0.2922
+epoch 242; avg loss per mb: 0.2924 *
+epoch 243; avg loss per mb: 0.2886
+epoch 244; avg loss per mb: 0.2880
+epoch 245; avg loss per mb: 0.2853
+epoch 246; avg loss per mb: 0.2815
+epoch 247; avg loss per mb: 0.2822 *
+epoch 248; avg loss per mb: 0.2798
+epoch 249; avg loss per mb: 0.2820 *
+epoch 250; avg loss per mb: 0.2774    vrd_frcnn_v2_checkpoint_250.pth    *
+epoch 251; avg loss per mb: 0.2753
+epoch 252; avg loss per mb: 0.2733
+epoch 253; avg loss per mb: 0.2715
+epoch 254; avg loss per mb: 0.2702
+epoch 255; avg loss per mb: 0.2683
+epoch 256; avg loss per mb: 0.2664
+epoch 257; avg loss per mb: 0.2665 *
+epoch 258; avg loss per mb: 0.2627
+epoch 259; avg loss per mb: 0.2601
+epoch 260; avg loss per mb: 0.2584    vrd_frcnn_v2_checkpoint_260.pth
+epoch 261; avg loss per mb: 0.2572
+epoch 262; avg loss per mb: 0.2547
+epoch 263; avg loss per mb: 0.2537
+epoch 264; avg loss per mb: 0.2509
+epoch 265; avg loss per mb: 0.2507
+epoch 266; avg loss per mb: 0.2474
+epoch 267; avg loss per mb: 0.2446
+epoch 268; avg loss per mb: 0.2426
+epoch 269; avg loss per mb: 0.2436 *
+epoch 270; avg loss per mb: 0.2396    vrd_frcnn_v2_checkpoint_270.pth
+epoch 271; avg loss per mb: 0.2367
+epoch 272; avg loss per mb: 0.2356
+epoch 273; avg loss per mb: 0.2331
+epoch 274; avg loss per mb: 0.2307
+epoch 275; avg loss per mb: 0.2300
+epoch 276; avg loss per mb: 0.2270
+epoch 277; avg loss per mb: 0.2242
+epoch 278; avg loss per mb: 0.2246 *
+epoch 279; avg loss per mb: 0.2235
+epoch 280; avg loss per mb: 0.2211    vrd_frcnn_v2_checkpoint_280.pth
+epoch 281; avg loss per mb: 0.2194
+epoch 282; avg loss per mb: 0.2202 *
+epoch 283; avg loss per mb: 0.2155 
+epoch 284; avg loss per mb: 0.2140
+epoch 285; avg loss per mb: 0.2143 *
+epoch 286; avg loss per mb: 0.2123
+epoch 287; avg loss per mb: 0.2109
+epoch 288; avg loss per mb: 0.2095
+epoch 289; avg loss per mb: 0.2104 *
+epoch 290; avg loss per mb: 0.2095    vrd_frcnn_v2_checkpoint_290.pth
+epoch 291; avg loss per mb: 0.2067
+epoch 292; avg loss per mb: 0.2074 *
+epoch 293; avg loss per mb: 0.2073
+epoch 294; avg loss per mb: 0.2038
+epoch 295; avg loss per mb: 0.2026
+epoch 296; avg loss per mb: 0.2019
+epoch 297; avg loss per mb: 0.2030 *
+epoch 298; avg loss per mb: 0.2005
+epoch 299; avg loss per mb: 0.2007 *
+epoch 300; avg loss per mb: 0.1971    vrd_frcnn_v2_checkpoint_300.pth    *
+epoch 301; avg loss per mb: 0.1988 *
+epoch 302; avg loss per mb: 0.1993 *
+epoch 303; avg loss per mb: 0.1990
+epoch 304; avg loss per mb: 0.1947
+epoch 305; avg loss per mb: 0.1952 *
+epoch 306; avg loss per mb: 0.1970 *
+epoch 307; avg loss per mb: 0.1950
+epoch 308; avg loss per mb: 0.1941
+epoch 309; avg loss per mb: 0.1920
+epoch 310; avg loss per mb: 0.1911    vrd_frcnn_v2_checkpoint_310.pth
+epoch 311; avg loss per mb: 0.1913 *
+epoch 312; avg loss per mb: 0.1926 *
+epoch 313; avg loss per mb: 0.1910
+epoch 314; avg loss per mb: 0.1926 *
+epoch 315; avg loss per mb: 0.1884
+epoch 316; avg loss per mb: 0.1878
+epoch 317; avg loss per mb: 0.1894 *
+epoch 318; avg loss per mb: 0.1875
+epoch 319; avg loss per mb: 0.1865
+epoch 320; avg loss per mb: 0.1870 *  vrd_frcnn_v2_checkpoint_320.pth
+epoch 321; avg loss per mb: 0.1876 *
+epoch 322; avg loss per mb: 0.1846
+epoch 323; avg loss per mb: 0.1842 
+epoch 324; avg loss per mb: 0.1851 *
+epoch 325; avg loss per mb: 0.1869 *
+epoch 326; avg loss per mb: 0.1855
+epoch 327; avg loss per mb: 0.1850
+epoch 328; avg loss per mb: 0.1836
+epoch 329; avg loss per mb: 0.1810
+epoch 330; avg loss per mb: 0.1828 *  vrd_frcnn_v2_checkpoint_330.pth
+epoch 331; avg loss per mb: 0.1827 
+epoch 332; avg loss per mb: 0.1811
+epoch 333; avg loss per mb: 0.1791
+epoch 334; avg loss per mb: 0.1830 *
+epoch 335; avg loss per mb: 0.1801
+epoch 336; avg loss per mb: 0.1786
+epoch 337; avg loss per mb: 0.1809 *
+epoch 338; avg loss per mb: 0.1792
+epoch 339; avg loss per mb: 0.1815 *
+epoch 340; avg loss per mb: 0.1784    vrd_frcnn_v2_checkpoint_340.pth
+epoch 341; avg loss per mb: 0.1791 *
+epoch 342; avg loss per mb: 0.1771
+epoch 343; avg loss per mb: 0.1787 *
+epoch 344; avg loss per mb: 0.1760
+epoch 345; avg loss per mb: 0.1776 *
+epoch 346; avg loss per mb: 0.1782 *
+epoch 347; avg loss per mb: 0.1745
+epoch 348; avg loss per mb: 0.1746 *
+epoch 349; avg loss per mb: 0.1765 *
+epoch 350; avg loss per mb: 0.1756    vrd_frcnn_v2_checkpoint_350.pth   *
+epoch 351; avg loss per mb: 0.1742
+epoch 352; avg loss per mb: 0.1758 *
+epoch 353; avg loss per mb: 0.1733
+epoch 354; avg loss per mb: 0.1753 *
+epoch 355; avg loss per mb: 0.1718
+epoch 356; avg loss per mb: 0.1737 *
+epoch 357; avg loss per mb: 0.1733
+epoch 358; avg loss per mb: 0.1729
+epoch 359; avg loss per mb: 0.1739 *
+epoch 360; avg loss per mb: 0.1740 *  vrd_frcnn_v2_checkpoint_360.pth
+epoch 371; avg loss per mb: 0.1708
+epoch 372; avg loss per mb: 0.1691
+epoch 373; avg loss per mb: 0.1681
+epoch 374; avg loss per mb: 0.1700 *
+epoch 375; avg loss per mb: 0.1702 *
+epoch 376; avg loss per mb: 0.1679
+epoch 377; avg loss per mb: 0.1663
+epoch 378; avg loss per mb: 0.1699 *
+epoch 379; avg loss per mb: 0.1694
+epoch 380; avg loss per mb: 0.1703 *  vrd_frcnn_v2_checkpoint_380.pth
+epoch 381; avg loss per mb: 0.1670
+epoch 382; avg loss per mb: 0.1672 *
+epoch 383; avg loss per mb: 0.1670
+epoch 384; avg loss per mb: 0.1653
+epoch 385; avg loss per mb: 0.1647
+epoch 386; avg loss per mb: 0.1651 *
+epoch 387; avg loss per mb: 0.1653 *
+epoch 388; avg loss per mb: 0.1664 *
+epoch 389; avg loss per mb: 0.1649
+epoch 390; avg loss per mb: 0.1653 *  vrd_frcnn_v2_checkpoint_390.pth
+epoch 391; avg loss per mb: 0.1657 *
+epoch 392; avg loss per mb: 0.1620
+epoch 393; avg loss per mb: 0.1621 *
+epoch 394; avg loss per mb: 0.1639 *
+epoch 395; avg loss per mb: 0.1639
+epoch 396; avg loss per mb: 0.1633
+epoch 397; avg loss per mb: 0.1622
+epoch 398; avg loss per mb: 0.1639 *
+epoch 399; avg loss per mb: 0.1619
+epoch 400; avg loss per mb: 0.1627 *  vrd_frcnn_v2_checkpoint_400.pth   *
+epoch 401; avg loss per mb: 0.1605 
+epoch 402; avg loss per mb: 0.1631 *
+epoch 403; avg loss per mb: 0.1634 *
+epoch 404; avg loss per mb: 0.1632
+epoch 405; avg loss per mb: 0.1601
+epoch 406; avg loss per mb: 0.1620 *
+epoch 407; avg loss per mb: 0.1625 *
+epoch 408; avg loss per mb: 0.1632 *
+epoch 409; avg loss per mb: 0.1599
+epoch 410; avg loss per mb: 0.1605 *  vrd_frcnn_v2_checkpoint_410.pth
+epoch 411; avg loss per mb: 0.1607 *
+epoch 412; avg loss per mb: 0.1612 *
+epoch 413; avg loss per mb: 0.1595
+epoch 414; avg loss per mb: 0.1592
+epoch 415; avg loss per mb: 0.1596 *
+epoch 416; avg loss per mb: 0.1616 *
+epoch 417; avg loss per mb: 0.1579
+epoch 418; avg loss per mb: 0.1605 *
+epoch 419; avg loss per mb: 0.1601
+epoch 420; avg loss per mb: 0.1586    vrd_frcnn_v2_checkpoint_420.pth
+epoch 421; avg loss per mb: 0.1600 *
+epoch 422; avg loss per mb: 0.1594
+epoch 423; avg loss per mb: 0.1584
+epoch 424; avg loss per mb: 0.1583
+epoch 425; avg loss per mb: 0.1580
+epoch 426; avg loss per mb: 0.1580
+epoch 427; avg loss per mb: 0.1577
+epoch 428; avg loss per mb: 0.1597 *
+epoch 429; avg loss per mb: 0.1574
+epoch 430; avg loss per mb: 0.1573    vrd_frcnn_v2_checkpoint_430.pth
+epoch 431; avg loss per mb: 0.1566
+epoch 432; avg loss per mb: 0.1549
+epoch 433; avg loss per mb: 0.1553 *
+epoch 434; avg loss per mb: 0.1571 *
+epoch 435; avg loss per mb: 0.1576 *
+epoch 436; avg loss per mb: 0.1571
+epoch 437; avg loss per mb: 0.1554
+epoch 438; avg loss per mb: 0.1565 *
+epoch 439; avg loss per mb: 0.1569 *
+epoch 440; avg loss per mb: 0.1567    vrd_frcnn_v2_checkpoint_440.pth
+epoch 441; avg loss per mb: 0.1558
+epoch 442; avg loss per mb: 0.1547
+epoch 443; avg loss per mb: 0.1557 *
+epoch 444; avg loss per mb: 0.1533
+epoch 445; avg loss per mb: 0.1553 *
+epoch 446; avg loss per mb: 0.1574 *
+epoch 447; avg loss per mb: 0.1540
+epoch 448; avg loss per mb: 0.1537
+epoch 449; avg loss per mb: 0.1525
+epoch 450; avg loss per mb: 0.1558 *  vrd_frcnn_v2_checkpoint_450.pth   *
+epoch 451; avg loss per mb: 0.1564 *
+epoch 452; avg loss per mb: 0.1529
+epoch 453; avg loss per mb: 0.1528
+epoch 454; avg loss per mb: 0.1538 *
+epoch 455; avg loss per mb: 0.1529
+epoch 456; avg loss per mb: 0.1532 *
+epoch 457; avg loss per mb: 0.1540 *
+epoch 458; avg loss per mb: 0.1528
+epoch 459; avg loss per mb: 0.1535 *
+epoch 460; avg loss per mb: 0.1527    vrd_frcnn_v2_checkpoint_460.pth    *
+epoch 461; avg loss per mb: 0.1527
+epoch 462; avg loss per mb: 0.1532 *
+epoch 463; avg loss per mb: 0.1531
+epoch 464; avg loss per mb: 0.1512
+epoch 465; avg loss per mb: 0.1512
+epoch 466; avg loss per mb: 0.1534 *
+epoch 467; avg loss per mb: 0.1518
+epoch 468; avg loss per mb: 0.1514
+epoch 469; avg loss per mb: 0.1518 *
+epoch 470; avg loss per mb: 0.1512    vrd_frcnn_v2_checkpoint_470.pth
+epoch 471; avg loss per mb: 0.1517 *
+epoch 472; avg loss per mb: 0.1504
+epoch 473; avg loss per mb: 0.1502
+epoch 474; avg loss per mb: 0.1523 *
+epoch 475; avg loss per mb: 0.1500
+epoch 476; avg loss per mb: 0.1497
+epoch 477; avg loss per mb: 0.1514 *
+epoch 478; avg loss per mb: 0.1499
+epoch 479; avg loss per mb: 0.1489
+epoch 480; avg loss per mb: 0.1518 *  vrd_frcnn_v2_checkpoint_480.pth
+epoch 481; avg loss per mb: 0.1500
+epoch 482; avg loss per mb: 0.1494
+epoch 483; avg loss per mb: 0.1500 *
+epoch 484; avg loss per mb: 0.1491
+epoch 485; avg loss per mb: 0.1482
+epoch 486; avg loss per mb: 0.1494 *
+epoch 487; avg loss per mb: 0.1491
+epoch 488; avg loss per mb: 0.1518 *
+epoch 489; avg loss per mb: 0.1514
+epoch 490; avg loss per mb: 0.1471    vrd_frcnn_v2_checkpoint_490.pth
+epoch 491; avg loss per mb: 0.1473 *
+epoch 492; avg loss per mb: 0.1486 *
+epoch 493; avg loss per mb: 0.1488 *
+epoch 494; avg loss per mb: 0.1488
+epoch 495; avg loss per mb: 0.1479
+epoch 496; avg loss per mb: 0.1476
+epoch 497; avg loss per mb: 0.1461 
+epoch 498; avg loss per mb: 0.1491 *
+epoch 499; avg loss per mb: 0.1467
+epoch 500; avg loss per mb: 0.1480 *  vrd_frcnn_v2_checkpoint_500.pth
+epoch 501; avg loss per mb: 0.1489 *
+epoch 502; avg loss per mb: 0.1474
+epoch 503; avg loss per mb: 0.1457
+epoch 504; avg loss per mb: 0.1477 *
+epoch 505; avg loss per mb: 0.1471
+epoch 506; avg loss per mb: 0.1459
+epoch 507; avg loss per mb: 0.1481 *
+epoch 508; avg loss per mb: 0.1472
+epoch 509; avg loss per mb: 0.1475 *
+epoch 510; avg loss per mb: 0.1459    vrd_frcnn_v2_checkpoint_510.pth   *
+
+===================
+
+Now training on: Camber server cluster
+
+Hyperion GPU node gpu02 was unavailable for maintenance on 31 March 2022 until around 18:00; so I switched over to the Camber server cluster temporarily, just for fun
+Training config:
+- batch_size = 4  ===>  avg loss per mb should drop dramatically !!!
+- 30 epochs per run
+SLURM job config:
+- SLURM shell script: runBatchVrdFrcnnCamber.sh
+- 1 titanv GPU
+- time limit: 6 hrs
+
+epoch 511; avg loss per mb: 0.2406    wow, big rise! I expected a drop by 1/2
+epoch 512; avg loss per mb: 0.1975
+epoch 513; avg loss per mb: 0.1850
+epoch 514; avg loss per mb: 0.1894 *
+epoch 515; avg loss per mb: 0.1881
+epoch 516; avg loss per mb: 0.1868
+epoch 517; avg loss per mb: 0.1864
+epoch 518; avg loss per mb: 0.1843
+epoch 519; avg loss per mb: 0.1870 *
+epoch 520; avg loss per mb: 0.1857    vrd_frcnn_v2_checkpoint_520.pth
+epoch 521; avg loss per mb: 0.1834
+epoch 522; avg loss per mb: 0.1819
+epoch 523; avg loss per mb: 0.1848 *
+epoch 524; avg loss per mb: 0.1840
+epoch 525; avg loss per mb: 0.1835
+epoch 526; avg loss per mb: 0.1811
+epoch 527; avg loss per mb: 0.1817 *
+epoch 528; avg loss per mb: 0.1805
+epoch 529; avg loss per mb: 0.1816
+epoch 530; avg loss per mb: 0.1802    vrd_frcnn_v2_checkpoint_530.pth
+epoch 531; avg loss per mb: 0.1807 *
+epoch 532; avg loss per mb: 0.1802
+epoch 533; avg loss per mb: 0.1798
+epoch 534; avg loss per mb: 0.1778
+epoch 535; avg loss per mb: 0.1793 *
+epoch 536; avg loss per mb: 0.1798 *
+epoch 537; avg loss per mb: 0.1769
+epoch 538; avg loss per mb: 0.1758
+epoch 539; avg loss per mb: 0.1759 *
+epoch 540; avg loss per mb: 0.1778 *  vrd_frcnn_v2_checkpoint_540.pth
+
+
+
+========================
+
+Now training on Hyperion again; continuing on from where we left off last time on Hyperion.
+
+Training config:
+- batch_size = 8
+- 50 epochs per run
+SLURM job config:
+- SLURM shell script: runBatchVrdFrcnnHPC.sh
+- 1 GPU
+- time limit: 6 hrs
+
+
+epoch 511; avg loss per mb: 0.1451    a smooth continuation from last time 
+epoch 512; avg loss per mb: 0.1437
+epoch 513; avg loss per mb: 0.1467 *
+epoch 514; avg loss per mb: 0.1467
+epoch 515; avg loss per mb: 0.1467
+epoch 516; avg loss per mb: 0.1444
+epoch 517; avg loss per mb: 0.1465 *
+epoch 518; avg loss per mb: 0.1458
+epoch 519; avg loss per mb: 0.1454
+epoch 520; avg loss per mb: 0.1446    vrd_frcnn_v2_checkpoint_520.pth
+epoch 521; avg loss per mb: 0.1430
+epoch 522; avg loss per mb: 0.1442 *
+epoch 523; avg loss per mb: 0.1447 *
+epoch 524; avg loss per mb: 0.1445
+epoch 525; avg loss per mb: 0.1444
+epoch 526; avg loss per mb: 0.1442
+epoch 527; avg loss per mb: 0.1428 
+epoch 528; avg loss per mb: 0.1438 *
+epoch 529; avg loss per mb: 0.1429
+epoch 530; avg loss per mb: 0.1432 *  vrd_frcnn_v2_checkpoint_530.pth
+epoch 531; avg loss per mb: 0.1440 *
+epoch 532; avg loss per mb: 0.1446 *
+epoch 533; avg loss per mb: 0.1427
+epoch 534; avg loss per mb: 0.1444 *
+epoch 535; avg loss per mb: 0.1435
+epoch 536; avg loss per mb: 0.1444 *
+epoch 537; avg loss per mb: 0.1430
+epoch 538; avg loss per mb: 0.1423
+epoch 539; avg loss per mb: 0.1419
+epoch 540; avg loss per mb: 0.1413    vrd_frcnn_v2_checkpoint_540.pth
+epoch 541; avg loss per mb: 0.1414 *
+epoch 542; avg loss per mb: 0.1421 *
+epoch 543; avg loss per mb: 0.1421
+epoch 544; avg loss per mb: 0.1433 *
+epoch 545; avg loss per mb: 0.1457 *
+epoch 546; avg loss per mb: 0.1423
+epoch 547; avg loss per mb: 0.1405
+epoch 548; avg loss per mb: 0.1409 *
+epoch 549; avg loss per mb: 0.1411 *
+epoch 550; avg loss per mb: 0.1419 *  vrd_frcnn_v2_checkpoint_550.pth
+epoch 551; avg loss per mb: 0.1401 
+epoch 552; avg loss per mb: 0.1402 *
+epoch 553; avg loss per mb: 0.1437 *
+epoch 554; avg loss per mb: 0.1433
+epoch 555; avg loss per mb: 0.1405
+epoch 556; avg loss per mb: 0.1412 *
+epoch 557; avg loss per mb: 0.1414 *
+epoch 558; avg loss per mb: 0.1394
+epoch 559; avg loss per mb: 0.1402 *
+epoch 560; avg loss per mb: 0.1401    vrd_frcnn_v2_checkpoint_560.pth    *
+epoch 561; avg loss per mb: 0.1413 *
+epoch 562; avg loss per mb: 0.1390
+epoch 563; avg loss per mb: 0.1396 *
+epoch 564; avg loss per mb: 0.1397 *
+epoch 565; avg loss per mb: 0.1409 *
+epoch 566; avg loss per mb: 0.1404
+epoch 567; avg loss per mb: 0.1402
+epoch 568; avg loss per mb: 0.1408 *
+epoch 569; avg loss per mb: 0.1417 *
+epoch 570; avg loss per mb: 0.1389    vrd_frcnn_v2_checkpoint_570.pth
+epoch 571; avg loss per mb: 0.1380 
+epoch 572; avg loss per mb: 0.1389 *
+epoch 573; avg loss per mb: 0.1403 *
+epoch 574; avg loss per mb: 0.1390
+epoch 575; avg loss per mb: 0.1376
+epoch 576; avg loss per mb: 0.1385 *
+epoch 577; avg loss per mb: 0.1409 *
+epoch 578; avg loss per mb: 0.1397
+epoch 579; avg loss per mb: 0.1375
+epoch 580; avg loss per mb: 0.1367    vrd_frcnn_v2_checkpoint_580.pth
+epoch 581; avg loss per mb: 0.1394 *
+epoch 582; avg loss per mb: 0.1378
+epoch 583; avg loss per mb: 0.1384 *
+epoch 584; avg loss per mb: 0.1383
+epoch 585; avg loss per mb: 0.1368
+epoch 586; avg loss per mb: 0.1396 *
+epoch 587; avg loss per mb: 0.1379
+epoch 588; avg loss per mb: 0.1394 *
+epoch 589; avg loss per mb: 0.1375
+epoch 590; avg loss per mb: 0.1355    vrd_frcnn_v2_checkpoint_590.pth *
+epoch 591; avg loss per mb: 0.1372 *
+epoch 592; avg loss per mb: 0.1379 *
+epoch 593; avg loss per mb: 0.1388 *
+epoch 594; avg loss per mb: 0.1381
+epoch 595; avg loss per mb: 0.1367
+epoch 596; avg loss per mb: 0.1381 *
+epoch 597; avg loss per mb: 0.1368
+epoch 598; avg loss per mb: 0.1357
+epoch 599; avg loss per mb: 0.1356
+epoch 600; avg loss per mb: 0.1380 *  vrd_frcnn_v2_checkpoint_600.pth
+epoch 601; avg loss per mb: 0.1354 
+epoch 602; avg loss per mb: 0.1365 *
+epoch 603; avg loss per mb: 0.1363
+epoch 604; avg loss per mb: 0.1336
+epoch 605; avg loss per mb: 0.1362 *
+epoch 606; avg loss per mb: 0.1367 *
+epoch 607; avg loss per mb: 0.1368 *
+epoch 608; avg loss per mb: 0.1379 *
+epoch 609; avg loss per mb: 0.1367
+epoch 610; avg loss per mb: 0.1357    vrd_frcnn_v2_checkpoint_610.pth
+epoch 611; avg loss per mb: 0.1351
+epoch 612; avg loss per mb: 0.1346
+epoch 613; avg loss per mb: 0.1361 *
+epoch 614; avg loss per mb: 0.1360
+epoch 615; avg loss per mb: 0.1352
+epoch 616; avg loss per mb: 0.1345
+epoch 617; avg loss per mb: 0.1346 *
+epoch 618; avg loss per mb: 0.1355 *
+epoch 619; avg loss per mb: 0.1350
+epoch 620; avg loss per mb: 0.1361 *  vrd_frcnn_v2_checkpoint_620.pth
+epoch 621; avg loss per mb: 0.1366 *
+epoch 622; avg loss per mb: 0.1323
+epoch 623; avg loss per mb: 0.1339 *
+epoch 624; avg loss per mb: 0.1348 *
+epoch 625; avg loss per mb: 0.1346
+epoch 626; avg loss per mb: 0.1332
+epoch 627; avg loss per mb: 0.1344 *
+epoch 628; avg loss per mb: 0.1344
+epoch 629; avg loss per mb: 0.1325
+epoch 630; avg loss per mb: 0.1341 *  vrd_frcnn_v2_checkpoint_630.pth
+epoch 631; avg loss per mb: 0.1344 *
+epoch 632; avg loss per mb: 0.1358 *
+epoch 633; avg loss per mb: 0.1332
+epoch 634; avg loss per mb: 0.1326
+epoch 635; avg loss per mb: 0.1342 *
+epoch 636; avg loss per mb: 0.1340
+epoch 637; avg loss per mb: 0.1325
+epoch 638; avg loss per mb: 0.1321
+epoch 639; avg loss per mb: 0.1337 *
+epoch 640; avg loss per mb: 0.1328    vrd_frcnn_v2_checkpoint_640.pth
+epoch 641; avg loss per mb: 0.1327 
+epoch 642; avg loss per mb: 0.1327
+epoch 643; avg loss per mb: 0.1341 *
+epoch 644; avg loss per mb: 0.1328
+epoch 645; avg loss per mb: 0.1318
+epoch 646; avg loss per mb: 0.1303
+epoch 647; avg loss per mb: 0.1316 *
+epoch 648; avg loss per mb: 0.1330 *
+epoch 649; avg loss per mb: 0.1308
+epoch 650; avg loss per mb: 0.1324 *  vrd_frcnn_v2_checkpoint_650.pth
+epoch 651; avg loss per mb: 0.1324
+epoch 652; avg loss per mb: 0.1322
+epoch 653; avg loss per mb: 0.1324 *
+epoch 654; avg loss per mb: 0.1311
+epoch 655; avg loss per mb: 0.1298
+epoch 656; avg loss per mb: 0.1319 *
+epoch 657; avg loss per mb: 0.1337 *
+epoch 658; avg loss per mb: 0.1323
+epoch 659; avg loss per mb: 0.1319
+epoch 660; avg loss per mb: 0.1295    vrd_frcnn_v2_checkpoint_660.pth *
+epoch 661; avg loss per mb: 0.1327
+epoch 662; avg loss per mb: 0.1318
+epoch 663; avg loss per mb: 0.1288
+epoch 664; avg loss per mb: 0.1301
+epoch 665; avg loss per mb: 0.1310
+epoch 666; avg loss per mb: 0.1302
+epoch 667; avg loss per mb: 0.1309
+epoch 668; avg loss per mb: 0.1297
+epoch 669; avg loss per mb: 0.1289
+epoch 670; avg loss per mb: 0.1318    vrd_frcnn_v2_checkpoint_670.pth
+epoch 671; avg loss per mb: 0.1300
+epoch 672; avg loss per mb: 0.1301
+epoch 673; avg loss per mb: 0.1305
+epoch 674; avg loss per mb: 0.1290
+epoch 675; avg loss per mb: 0.1313
+epoch 676; avg loss per mb: 0.1303
+epoch 677; avg loss per mb: 0.1315
+epoch 678; avg loss per mb: 0.1295
+epoch 679; avg loss per mb: 0.1305
+epoch 680; avg loss per mb: 0.1303    vrd_frcnn_v2_checkpoint_680.pth
+epoch 681; avg loss per mb: 0.1297
+epoch 682; avg loss per mb: 0.1289
+epoch 683; avg loss per mb: 0.1292
+epoch 684; avg loss per mb: 0.1287
+epoch 685; avg loss per mb: 0.1283
+epoch 686; avg loss per mb: 0.1284
+epoch 687; avg loss per mb: 0.1287
+epoch 688; avg loss per mb: 0.1302
+epoch 689; avg loss per mb: 0.1282
+epoch 690; avg loss per mb: 0.1297    vrd_frcnn_v2_checkpoint_690.pth
+epoch 691; avg loss per mb: 0.1311
+epoch 692; avg loss per mb: 0.1291
+epoch 693; avg loss per mb: 0.1286
+epoch 694; avg loss per mb: 0.1275
+epoch 695; avg loss per mb: 0.1276
+epoch 696; avg loss per mb: 0.1286
+epoch 697; avg loss per mb: 0.1276
+epoch 698; avg loss per mb: 0.1282
+epoch 699; avg loss per mb: 0.1272
+epoch 700; avg loss per mb: 0.1294    vrd_frcnn_v2_checkpoint_700.pth
+epoch 701; avg loss per mb: 0.1286
+epoch 702; avg loss per mb: 0.1254
+epoch 703; avg loss per mb: 0.1305
+epoch 704; avg loss per mb: 0.1282
+epoch 705; avg loss per mb: 0.1268
+epoch 706; avg loss per mb: 0.1269
+epoch 707; avg loss per mb: 0.1268
+epoch 708; avg loss per mb: 0.1267
+epoch 709; avg loss per mb: 0.1274
+epoch 710; avg loss per mb: 0.1278    vrd_frcnn_v2_checkpoint_710.pth
+epoch 711; avg loss per mb: 0.1273
+epoch 712; avg loss per mb: 0.1276
+epoch 713; avg loss per mb: 0.1259
+epoch 714; avg loss per mb: 0.1261
+epoch 715; avg loss per mb: 0.1254
+epoch 716; avg loss per mb: 0.1265
+epoch 717; avg loss per mb: 0.1254
+epoch 718; avg loss per mb: 0.1251
+epoch 719; avg loss per mb: 0.1294
+epoch 720; avg loss per mb: 0.1267    vrd_frcnn_v2_checkpoint_720.pth
+epoch 721; avg loss per mb: 0.1279
+epoch 722; avg loss per mb: 0.1278
+epoch 723; avg loss per mb: 0.1273
+epoch 724; avg loss per mb: 0.1256
+epoch 725; avg loss per mb: 0.1266
+epoch 726; avg loss per mb: 0.1255
+epoch 727; avg loss per mb: 0.1247
+epoch 728; avg loss per mb: 0.1274
+epoch 729; avg loss per mb: 0.1257
+epoch 730; avg loss per mb: 0.1258    vrd_frcnn_v2_checkpoint_730.pth
+epoch 731; avg loss per mb: 0.1248
+epoch 732; avg loss per mb: 0.1251
+epoch 733; avg loss per mb: 0.1259
+epoch 734; avg loss per mb: 0.1269
+epoch 735; avg loss per mb: 0.1254
+epoch 736; avg loss per mb: 0.1261
+epoch 737; avg loss per mb: 0.1251
+epoch 738; avg loss per mb: 0.1240
+epoch 739; avg loss per mb: 0.1249
+epoch 740; avg loss per mb: 0.1251    vrd_frcnn_v2_checkpoint_740.pth * 
+epoch 741; avg loss per mb: 0.1250
+epoch 742; avg loss per mb: 0.1253
+epoch 743; avg loss per mb: 0.1248
+epoch 744; avg loss per mb: 0.1268
+epoch 745; avg loss per mb: 0.1242
+epoch 746; avg loss per mb: 0.1246
+epoch 747; avg loss per mb: 0.1246
+epoch 748; avg loss per mb: 0.1246
+epoch 749; avg loss per mb: 0.1241
+epoch 750; avg loss per mb: 0.1261    vrd_frcnn_v2_checkpoint_750.pth
+epoch 751; avg loss per mb: 0.1253
+epoch 752; avg loss per mb: 0.1243
+epoch 753; avg loss per mb: 0.1235
+epoch 754; avg loss per mb: 0.1229
+epoch 755; avg loss per mb: 0.1244
+epoch 756; avg loss per mb: 0.1228
+epoch 757; avg loss per mb: 0.1227
+epoch 758; avg loss per mb: 0.1251
+epoch 759; avg loss per mb: 0.1241
+epoch 760; avg loss per mb: 0.1240    vrd_frcnn_v2_checkpoint_760.pth
+epoch 761; avg loss per mb: 0.1257
+epoch 762; avg loss per mb: 0.1257
+epoch 763; avg loss per mb: 0.1229
+epoch 764; avg loss per mb: 0.1230
+epoch 765; avg loss per mb: 0.1224
+epoch 766; avg loss per mb: 0.1233
+epoch 767; avg loss per mb: 0.1237
+epoch 768; avg loss per mb: 0.1241
+epoch 769; avg loss per mb: 0.1229
+epoch 770; avg loss per mb: 0.1228    vrd_frcnn_v2_checkpoint_770.pth
+epoch 771; avg loss per mb: 0.1249
+epoch 772; avg loss per mb: 0.1223
+epoch 773; avg loss per mb: 0.1226
+epoch 774; avg loss per mb: 0.1224
+epoch 775; avg loss per mb: 0.1225
+epoch 776; avg loss per mb: 0.1227
+epoch 777; avg loss per mb: 0.1214
+epoch 778; avg loss per mb: 0.1231
+epoch 779; avg loss per mb: 0.1234
+epoch 780; avg loss per mb: 0.1229    vrd_frcnn_v2_checkpoint_780.pth
+epoch 781; avg loss per mb: 0.1237
+epoch 782; avg loss per mb: 0.1228
+epoch 783; avg loss per mb: 0.1219
+epoch 784; avg loss per mb: 0.1242
+epoch 785; avg loss per mb: 0.1219
+epoch 786; avg loss per mb: 0.1214
+epoch 787; avg loss per mb: 0.1209
+epoch 788; avg loss per mb: 0.1212
+epoch 789; avg loss per mb: 0.1224
+epoch 790; avg loss per mb: 0.1232    vrd_frcnn_v2_checkpoint_790.pth
+epoch 791; avg loss per mb: 0.1210
+epoch 792; avg loss per mb: 0.1202
+epoch 793; avg loss per mb: 0.1230
+epoch 794; avg loss per mb: 0.1215
+epoch 795; avg loss per mb: 0.1199
+epoch 796; avg loss per mb: 0.1195
+epoch 797; avg loss per mb: 0.1229
+epoch 798; avg loss per mb: 0.1214
+epoch 799; avg loss per mb: 0.1218
+epoch 800; avg loss per mb: 0.1215    vrd_frcnn_v2_checkpoint_800.pth   * 
+epoch 801; avg loss per mb: 0.1234
+epoch 802; avg loss per mb: 0.1222
+epoch 803; avg loss per mb: 0.1211
+epoch 804; avg loss per mb: 0.1213
+epoch 805; avg loss per mb: 0.1204
+epoch 806; avg loss per mb: 0.1228
+epoch 807; avg loss per mb: 0.1210
+epoch 808; avg loss per mb: 0.1205
+epoch 809; avg loss per mb: 0.1188
+epoch 810; avg loss per mb: 0.1195    vrd_frcnn_v2_checkpoint_810.pth
+epoch 811; avg loss per mb: 0.1195
+epoch 812; avg loss per mb: 0.1199
+epoch 813; avg loss per mb: 0.1194
+epoch 814; avg loss per mb: 0.1205
+epoch 815; avg loss per mb: 0.1210
+epoch 816; avg loss per mb: 0.1208
+epoch 817; avg loss per mb: 0.1206
+epoch 818; avg loss per mb: 0.1207
+epoch 819; avg loss per mb: 0.1195
+epoch 820; avg loss per mb: 0.1199    vrd_frcnn_v2_checkpoint_820.pth
+epoch 821; avg loss per mb: 0.1198
+epoch 822; avg loss per mb: 0.1185
+epoch 823; avg loss per mb: 0.1207
+epoch 824; avg loss per mb: 0.1213
+epoch 825; avg loss per mb: 0.1180
+epoch 826; avg loss per mb: 0.1191
+epoch 827; avg loss per mb: 0.1212
+epoch 828; avg loss per mb: 0.1189
+epoch 829; avg loss per mb: 0.1190
+epoch 830; avg loss per mb: 0.1192    vrd_frcnn_v2_checkpoint_830.pth
+epoch 831; avg loss per mb: 0.1198
+epoch 832; avg loss per mb: 0.1195
+epoch 833; avg loss per mb: 0.1186
+epoch 834; avg loss per mb: 0.1174
+epoch 835; avg loss per mb: 0.1213
+epoch 836; avg loss per mb: 0.1193
+epoch 837; avg loss per mb: 0.1204
+epoch 838; avg loss per mb: 0.1187
+epoch 839; avg loss per mb: 0.1187
+epoch 840; avg loss per mb: 0.1190    vrd_frcnn_v2_checkpoint_840.pth    *
+epoch 841; avg loss per mb: 0.1182
+epoch 842; avg loss per mb: 0.1208
+epoch 843; avg loss per mb: 0.1194
+epoch 844; avg loss per mb: 0.1174
+epoch 845; avg loss per mb: 0.1175
+epoch 846; avg loss per mb: 0.1184
+epoch 847; avg loss per mb: 0.1167
+epoch 848; avg loss per mb: 0.1188
+epoch 849; avg loss per mb: 0.1204
+epoch 850; avg loss per mb: 0.1200    vrd_frcnn_v2_checkpoint_850.pth    *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
