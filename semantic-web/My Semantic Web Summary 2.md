@@ -1,6 +1,9 @@
 # My Semantic Web Summary 2 {ignore=true}
 
-This is my summary of the Semantic Web technology stack (RDF, RDFS, OWL, etc.) and of topics relating to ontology modelling/engineering using the technology stack.  The primary source for this summary is `Semantic Web for the Working Ontologist`, 3ed.
+This is my summary of the Semantic Web technology stack (RDF, RDFS, OWL, etc.) and of topics relating to ontology modelling/engineering using the technology stack.  The primary source for this summary is `Semantic Web for the Working Ontologist`, 3ed. But info and insights from other sources have been (and continue to be) introduced as well.
+
+The best way to view and use this document is to render it within an editor that supports Markdown previewing. We prefer editors Atom and MS Visual Studio Code, both of which allow installation of a useful support package called `Markdown Preview Enhanced`. Amongst other things, this Markdown rendering package interprets the `[TOC]` (Table of Contents) command and builds a dynamic Table of Contents with automatic internal hyperlinks to each Heading, SubHeading, etc., This is extremely useful for navigating large documents like this one: useful for viewing the contents/structure and for jumping to sections of interest.  The `Markdown Preview Enhanced` package also provides a convenient `back to top` hyperlink icon for jumping back to the top of the document.
+
 
 **Table of Contents**
 [TOC]
@@ -162,6 +165,31 @@ lit:Shakespeare lit:wrote lit:KingLear
 ```
 
 
+
+# Inference and the Semantic Web
+
+The Semantic Web is an *inference-based* system.
+
+The meaning of Semantic Web constructs are described in terms of their *inference semantics* (ie the inference rules that they represent).
+
+For the Semantic Web, inferencing means that given some stated information, we can determine other, related information that we can also consider as if it had been stated. Inferencing is a powerful mechanism for dealing with information, and it can cover a wide range of elaborate processing.
+
+Inferencing can:
+* make our data more integrated and consistent; eg mundane consistency completion of data
+* make our data more connected and consistently integrated
+
+An inference-based system makes data more useful. It can respond to queries based not only on the triples that have been asserted but also on the triples that can be inferred based on the rules of inference.
+
+An RDFS inference engine supports the inferences defined in the RDFS standard; an OWL inference engine supports the larger set of OWL inferences.
+
+There are two main benefits of inference:
+1. To infer new triples
+2. To find inconsistencies
+
+Specifying when classes are disjoint helps an OWL reasoner to find inconsistencies.
+
+
+
 # RDFS
 
 RDFS (RDF Schema)
@@ -276,7 +304,12 @@ WHERE { ?A rdfs:subClassOf ?B .
         ?x rdf:type ?A }
 ```
 * the same *type propagation rule* automatically applies to every parent class of `:A`, whether declared explicitly or implicitly; eg `:x` will be inferred to be a member of every parent class of `:B`
-* there are no problematic issues concerning 'multiple inheritance' as in OOP; `:A` can participate in any number of independent subsumption paths
+
+Multiple parent classes
+* a class can be the subclass of many distinct classes
+* class `:A` can participate in any number of independent subsumption paths (ie be the subclass of many parent classes)
+* there are no 'multiple inheritance'-like problematic issues, as in OOP
+* if `:A rdfs:subClassOf :B` and `:A rdfs:subClassOf :C`, the inference semantics of `rdfs:subClassOf` do not change, they are applied twice; so if individual `:x` is a member of class `:A`, then `:x` is also a member of `:B` and `:C`
 
 intersection and union
 * `rdfs:subClassOf` can also model the intersection and union of classes (sets)
@@ -1959,19 +1992,8 @@ Rules-based systems started in the days of Expert Systems.
 There are several approaches to reasoning with uncertainty in rules. Many of these have considerable research and practical examples behind them, making uncertainty in rules a relatively well-understood issue.
 
 
-# Miscellaneous
 
-## The benefits of inference (reasoning)
-
-There are two main benefits of inference.
-
-1) To infer new triples
-
-2) To find inconsistencies
-
-Specifying when classes are disjoint helps an OWL reasoner to find inconsistencies.
-
-## Ontology Engineering
+# Ontology Engineering
 
 You use whatever OWL constructs are available to express the semantics of the things you care creating. The ontology gives meaning to the data, and adding more meaning to the ontology adds more meaning to the data.
 
@@ -1983,7 +2005,7 @@ After you create your vocabulary of classes and properties, you use it to create
 * designating properties as being either object properties (relating an individual to another individual) or data properties (relating an individual to a literal value)
 * data properties are used to describe the attributes of individuals
 
-### Individuals, classes and properties
+## Individuals, classes and properties
 
 Individuals
 * a specific thing (person, place or thing)
